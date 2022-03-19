@@ -2,6 +2,7 @@
   "name": "course-website",
   "version": "1.0.0",
   "private": true,
+  "author": "wu-json",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
