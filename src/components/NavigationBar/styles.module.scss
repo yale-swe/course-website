@@ -21,6 +21,11 @@
   font-size: 18px;
   color: var(--text-color);
   margin-left: 60px;
+  cursor: pointer;
+}
+
+.text-routes h1:hover {
+  color: var(--primary-color);
 }
 
 .toggle-container {
