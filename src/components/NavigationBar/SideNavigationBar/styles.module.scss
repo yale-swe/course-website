@@ -21,7 +21,7 @@
   right: 15px;
 }
 
-.burger:hover {
+.container .burger:hover {
   color: var(--primary-color);
   cursor: pointer;
 }
@@ -43,4 +43,9 @@
   position: absolute;
   top: 30px;
   right: 40px;
+}
+
+.sidebar .burger:hover {
+  color: var(--text-color);
+  cursor: pointer;
 }
