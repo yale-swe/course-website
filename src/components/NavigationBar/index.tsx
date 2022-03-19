@@ -1,6 +1,5 @@
-import { Switch } from 'antd';
-
 import Logo from '../../assets/images/logo.png';
+import DarkModeToggle from '../DarkModeToggle';
 import styles from './styles.module.scss';
 
 const NavigationBar = () => {
@@ -13,13 +12,8 @@ const NavigationBar = () => {
                 <h1>projects</h1>
                 <h1>docs</h1>
                 <h1>contact us</h1>
-                <div className={styles['switch-container']}>
-                    <Switch
-                        defaultChecked={false}
-                        onChange={() => {}}
-                        checkedChildren={<i className="fas fa-moon" />}
-                        unCheckedChildren={<i className="fas fa-sun" />}
-                    />
+                <div className={styles['toggle-container']}>
+                    <DarkModeToggle />
                 </div>
             </div>
         </div>
