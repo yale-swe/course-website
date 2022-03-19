@@ -38,8 +38,39 @@
 .graphic-container {
   margin-left: 100px;
   width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .graphic-container img {
   width: 400px;
+}
+
+@media only screen and (max-width: 800px) {
+  .content-container {
+    padding: 0px 30px;
+    width: 100%;
+    margin-top: 10px;
+    flex-direction: column;
+  }
+
+  .text-container {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .text-container h1 {
+    font-size: 60px;
+    line-height: 80px;
+  }
+
+  .graphic-container {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .graphic-container img {
+    width: calc(100% - 60px);
+  }
 }
