@@ -8,12 +8,14 @@ const DarkModeToggle = () => {
         false,
         'darkMode'
     );
+
     useEffect(() => {
         const html = document.querySelector('html');
         if (html) {
             html.dataset.theme = isDarkMode ? 'theme-dark' : 'theme-light';
         }
     }, [isDarkMode]);
+
     return (
         <Switch
             defaultChecked={isDarkMode}
