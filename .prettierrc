@@ -10,5 +10,7 @@
       }
     }
   ],
-  "singleQuote": true
+  "singleQuote": true,
+  "importOrderSeparation": true,
+  "importOrder": ["^@server/(.*)$", "^@core/(.*)$", "^@ui/(.*)$", "^[./]"]
 }
