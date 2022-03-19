@@ -49,6 +49,7 @@ const SideBar = ({
 };
 
 const SideNavigationBar = () => {
+    const navigate = useNavigate();
     const [isOpen, setIsOpen] = useState<boolean>(false);
     return (
         <>
@@ -57,6 +58,7 @@ const SideNavigationBar = () => {
                     className={styles['logo']}
                     src={Logo}
                     alt="yale-swe-logo"
+                    onClick={() => navigate('/')}
                 />
                 <i
                     className={`fa-solid fa-bars ${styles['burger']}`}

@@ -11,6 +11,11 @@
 
 .logo {
   width: 50px;
+  cursor: pointer;
+}
+
+.logo:hover {
+  filter: brightness(80%);
 }
 
 .container .burger {

@@ -9,7 +9,12 @@ const FullNavigationBar = () => {
     const navigate = useNavigate();
     return (
         <div className={styles['container']}>
-            <img className={styles['logo']} src={Logo} alt="yale-swe-logo" />
+            <img
+                className={styles['logo']}
+                src={Logo}
+                alt="yale-swe-logo"
+                onClick={() => navigate('/')}
+            />
             <div className={styles['text-routes']}>
                 {TEXT_ROUTES.map(({ route, label }) => (
                     <h1 onClick={() => navigate(route)} key={route}>
