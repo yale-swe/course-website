@@ -1,5 +1,4 @@
 @use 'src/styles/fonts.scss';
-@use 'src/styles/colors.scss';
 
 .container {
   width: calc(100% - 60px);
@@ -20,6 +19,6 @@
 .text-routes h1 {
   font-family: Roboto-Bold;
   font-size: 18px;
-  color: colors.$not-quite-black;
+  color: var(--text-color);
   margin-left: 60px;
 }

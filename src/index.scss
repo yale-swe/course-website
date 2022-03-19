@@ -1,8 +1,6 @@
-@use 'src/styles/colors.scss';
-
 html,
 body {
-  background: colors.$white;
+  background: var(--primary-color);
   height: 100%;
   width: 100%;
   margin: 0;
