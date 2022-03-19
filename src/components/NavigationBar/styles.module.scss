@@ -1,0 +1,23 @@
+@use 'src/styles/fonts.scss';
+
+.container {
+  width: calc(100% - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.logo {
+  width: 50px;
+}
+
+.text-routes {
+  display: flex;
+}
+
+.text-routes h1 {
+  font-family: Roboto-Bold;
+  font-size: 18px;
+  margin-left: 60px;
+}
