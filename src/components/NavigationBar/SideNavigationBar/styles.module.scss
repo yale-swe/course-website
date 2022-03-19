@@ -1,0 +1,46 @@
+@use 'src/styles/fonts.scss';
+
+.container {
+  width: calc(100% - 30px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 15px;
+  position: relative;
+}
+
+.logo {
+  width: 50px;
+}
+
+.container .burger {
+  font-size: 22px;
+  color: var(--text-color);
+  position: absolute;
+  top: 30px;
+  right: 15px;
+}
+
+.burger:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.sidebar {
+  background: var(--primary-color);
+  position: fixed;
+  display: flex;
+  top: 0px;
+  right: 0px;
+  z-index: 1000;
+  height: 100vh;
+  width: 220px;
+}
+
+.sidebar .burger {
+  font-size: 22px;
+  color: var(--bg-color);
+  position: absolute;
+  top: 30px;
+  right: 40px;
+}
