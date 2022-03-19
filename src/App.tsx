@@ -1,12 +1,13 @@
-function App() {
-    console.log('hi');
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+const App = () => {
     return (
-        <div className="App">
-            <header className="App-header">
-                <p>hi</p>
-            </header>
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<></>} />
+            </Routes>
+        </BrowserRouter>
     );
-}
+};
 
 export default App;
