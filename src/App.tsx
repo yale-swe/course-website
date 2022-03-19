@@ -3,16 +3,12 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import useStickyState from './hooks/useStickyState';
 import Home from './screens/Home';
+import setTheme from './styles/setTheme';
 
 const App = () => {
     const [isDarkMode] = useStickyState<boolean>(false, 'darkMode');
 
-    useEffect(() => {
-        const html = document.querySelector('html');
-        if (html) {
-            html.dataset.theme = isDarkMode ? 'theme-dark' : 'theme-light';
-        }
-    }, [isDarkMode]);
+    useEffect(() => setTheme(isDarkMode), [isDarkMode]);
 
     return (
         <BrowserRouter>

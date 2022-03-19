@@ -5,7 +5,7 @@ import SideNavigationBar from './SideNavigationBar';
 
 const NavigationBar = () => {
     const windowWidth = useWindowWidth();
-    return windowWidth > 1200 ? <FullNavigationBar /> : <SideNavigationBar />;
+    return windowWidth > 900 ? <FullNavigationBar /> : <SideNavigationBar />;
 };
 
 export default NavigationBar;
