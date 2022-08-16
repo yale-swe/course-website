@@ -1,13 +1,9 @@
 @use 'src/styles/fonts.scss';
 
-h1 {
-  color: red;
-}
-
 .project-container {
   width: 100%;
-  height: 200px;
-  background-color: rgb(225, 223, 223);
+  height: 150px;
+  background-color: rgb(235, 235, 235);
   margin-bottom: 30px;
 }
 
@@ -24,7 +20,7 @@ h1 {
   font-size: 32px;
   margin-left: 52%;
   width: 70%;
-  height: 25%;
+  height: 45px;
 }
 
 .project-description {
@@ -32,12 +28,12 @@ h1 {
   font-size: 14px;
   margin-left: 52%;
   width: 70%;
-  height: 63%;
+  height: 80px;
 }
 
 .project-team {
   right: 10%;
   margin-right: 10px;
   text-align: right;
-  height: 12%;
+  height: 25px;
 }
