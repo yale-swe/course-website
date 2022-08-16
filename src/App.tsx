@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import useStickyState from './hooks/useStickyState';
 import Home from './screens/Home';
+import Projects from './screens/Projects';
 import UnderConstruction from './screens/UnderConstruction';
 import setTheme from './styles/setTheme';
 
@@ -17,7 +18,7 @@ const App = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<UnderConstruction />} />
                 <Route path="/staff" element={<UnderConstruction />} />
-                <Route path="/projects" element={<UnderConstruction />} />
+                <Route path="/projects" element={<Projects />} />
                 <Route path="/docs" element={<UnderConstruction />} />
                 <Route path="/contact" element={<UnderConstruction />} />
             </Routes>
