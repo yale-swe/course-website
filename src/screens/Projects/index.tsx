@@ -7,59 +7,152 @@ type ProjectType = {
     desc: string;
     team: string;
     imgSrc: string;
+    repoSrc: string | undefined;
 };
 
 const PROJECTS_S21: ProjectType[] = [
     {
-        name: 'project name 1',
+        name: 'Bulletin',
         desc: 'project description 1',
         imgSrc: 'https://source.unsplash.com/random',
-        team: 'J Gis, X Ed'
+        team: 'J Gis, X Ed',
+        repoSrc: undefined
     },
     {
-        name: 'project name 2',
+        name: 'Calyco',
         desc: 'project description 2',
         imgSrc: 'https://source.unsplash.com/random',
-        team: 'J Gis, X Ed'
+        team: 'J Gis, X Ed',
+        repoSrc: undefined
     },
     {
-        name: 'project name 3',
+        name: 'EasyStart',
         desc: 'project description 3',
         imgSrc: 'https://source.unsplash.com/random',
-        team: 'J Gis, X Ed'
+        team: 'J Gis, X Ed',
+        repoSrc: undefined
     },
     {
-        name: 'project name 4',
+        name: 'Garagio',
         desc: 'project description 4',
         imgSrc: 'https://source.unsplash.com/random',
-        team: 'J Gis, X Ed'
+        team: 'J Gis, X Ed',
+        repoSrc: undefined
+    },
+    {
+        name: 'Mos',
+        desc: 'project description 4',
+        imgSrc: 'https://source.unsplash.com/random',
+        team: 'J Gis, X Ed',
+        repoSrc: undefined
+    },
+    {
+        name: 'Next',
+        desc: 'project description 4',
+        imgSrc: 'https://source.unsplash.com/random',
+        team: 'J Gis, X Ed',
+        repoSrc: undefined
+    },
+    {
+        name: 'Research For All',
+        desc: 'project description 4',
+        imgSrc: 'https://source.unsplash.com/random',
+        team: 'J Gis, X Ed',
+        repoSrc: undefined
+    },
+    {
+        name: 'Standup Master',
+        desc: 'project description 4',
+        imgSrc: 'https://source.unsplash.com/random',
+        team: 'J Gis, X Ed',
+        repoSrc: undefined
+    },
+    {
+        name: 'The Suite Life',
+        desc: 'project description 4',
+        imgSrc: 'https://source.unsplash.com/random',
+        team: 'J Gis, X Ed',
+        repoSrc: undefined
+    },
+    {
+        name: 'YPool',
+        desc: 'project description 4',
+        imgSrc: 'https://source.unsplash.com/random',
+        team: 'J Gis, X Ed',
+        repoSrc: undefined
     }
 ];
 
 const PROJECTS_S22: ProjectType[] = [
     {
-        name: 'project name 1',
+        name: 'Appily',
         desc: 'project description 1',
         imgSrc: 'https://source.unsplash.com/random',
-        team: 'J Gis, X Ed'
+        team: 'Craven, Dang, Feng, Fernandez de Lara, Katko, Martinez, Ong',
+        repoSrc: 'https://github.com/yale-swe/s22-internship-tracker'
     },
     {
-        name: 'project name 2',
+        name: 'Campaign Wallet',
         desc: 'project description 2',
         imgSrc: 'https://source.unsplash.com/random',
-        team: 'J Gis, X Ed'
+        team: 'Chen, Hsu, Macri, Mehrotra, Mitra, Selin',
+        repoSrc: 'https://github.com/yale-swe/s22-campaign-finance'
     },
     {
-        name: 'project name 3',
+        name: 'HouseMe',
         desc: 'project description 3',
         imgSrc: 'https://source.unsplash.com/random',
-        team: 'J Gis, X Ed'
+        team: 'Callanan, Grady, Kaur, Qu, Romero, Sharma, Tang',
+        repoSrc: 'https://github.com/yale-swe/s22-college-sublet'
     },
     {
-        name: 'project name 4',
+        name: 'DownToTruck',
         desc: 'project description 4',
         imgSrc: 'https://source.unsplash.com/random',
-        team: 'J Gis, X Ed'
+        team: 'Orr, Salinas-Arreola, Slaughter, Sultan, Wang, Yin',
+        repoSrc: 'https://github.com/yale-swe/s22-downtotruck'
+    },
+    {
+        name: 'Eloit',
+        desc: 'project description 4',
+        imgSrc: 'https://source.unsplash.com/random',
+        team: "Hou, Jain, Kantamneni, Milkessa, O'Connor, Wu",
+        repoSrc: 'https://github.com/yale-swe/s22-eloit'
+    },
+    {
+        name: 'Jumble',
+        desc: 'project description 4',
+        imgSrc: 'https://source.unsplash.com/random',
+        team: 'Hodeta, Lazzaretti, Liu, Qu, Tang, Tigistu, Zhang',
+        repoSrc: 'https://github.com/yale-swe/s22-entertainment-archives'
+    },
+    {
+        name: 'Morphic',
+        desc: 'project description 4',
+        imgSrc: 'https://source.unsplash.com/random',
+        team: 'Hu, Kopits, Luo, Reichenbach, Sheth',
+        repoSrc: 'https://github.com/yale-swe/s22-datasethub'
+    },
+    {
+        name: 'TravelPlanner',
+        desc: 'project description 4',
+        imgSrc: 'https://source.unsplash.com/random',
+        team: 'Carroll, Chen, Liang, Valencia, Wang, Zhao, Zou',
+        repoSrc: 'https://github.com/yale-swe/s22-travelplanner'
+    },
+    {
+        name: 'Yale Daily News Mobile App',
+        desc: 'project description 4',
+        imgSrc: 'https://source.unsplash.com/random',
+        team: 'Gedi, Gondal, Kim, Lauriette, Oluwadairo, Rahman, Reiner',
+        repoSrc: 'https://github.com/yale-swe/s22-ydn-mobile'
+    },
+    {
+        name: 'YMarket',
+        desc: 'project description 4',
+        imgSrc: 'https://source.unsplash.com/random',
+        team: 'Chen, Goh, Liu, Qian, Sharma, Zhang',
+        repoSrc: 'https://github.com/yale-swe/s22-ymarket'
     }
 ];
 
@@ -81,6 +174,7 @@ const Projects = () => {
                     }}
                 />
                 TBA
+                <div style={{ height: '50px' }}></div>
                 <h2>Spring 2022</h2>
                 <hr
                     style={{
@@ -91,15 +185,17 @@ const Projects = () => {
                         marginBottom: '20px'
                     }}
                 />
-                {PROJECTS_S22.map(({ name, desc, team, imgSrc }) => (
+                {PROJECTS_S22.map(({ name, desc, team, imgSrc, repoSrc }) => (
                     <ProjectContent
                         key={name}
                         projectName={name}
                         projectDesc={desc}
                         projectTeam={team}
                         projectImgSrc={imgSrc}
+                        projectRepoSrc={repoSrc}
                     />
                 ))}
+                <div style={{ height: '50px' }}></div>
                 <h2>Spring 2021</h2>
                 <hr
                     style={{
@@ -110,13 +206,14 @@ const Projects = () => {
                         marginBottom: '20px'
                     }}
                 />
-                {PROJECTS_S21.map(({ name, desc, team, imgSrc }) => (
+                {PROJECTS_S21.map(({ name, desc, team, imgSrc, repoSrc }) => (
                     <ProjectContent
                         key={name}
                         projectName={name}
                         projectDesc={desc}
                         projectTeam={team}
                         projectImgSrc={imgSrc}
+                        projectRepoSrc={repoSrc}
                     />
                 ))}
             </div>
