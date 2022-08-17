@@ -87,14 +87,14 @@ const PROJECTS_S22: ProjectType[] = [
     {
         name: 'Appily',
         desc: 'project description 1',
-        imgSrc: 'https://source.unsplash.com/random',
+        imgSrc: '/assets/appily-logo.png',
         team: 'Craven, Dang, Feng, Fernandez de Lara, Katko, Martinez, Ong',
         repoSrc: 'https://github.com/yale-swe/s22-internship-tracker'
     },
     {
         name: 'Campaign Wallet',
         desc: 'project description 2',
-        imgSrc: 'https://source.unsplash.com/random',
+        imgSrc: 'https://raw.githubusercontent.com/yale-swe/s22-campaign-finance/main/dist/img/campaign_finance_logo.png?token=GHSAT0AAAAAABT5KYM6K5ZKO47UGBFC3EX6YX32VFA',
         team: 'Chen, Hsu, Macri, Mehrotra, Mitra, Selin',
         repoSrc: 'https://github.com/yale-swe/s22-campaign-finance'
     },
@@ -149,8 +149,8 @@ const PROJECTS_S22: ProjectType[] = [
     },
     {
         name: 'YMarket',
-        desc: 'project description 4',
-        imgSrc: 'https://source.unsplash.com/random',
+        desc: 'A one-stop marketplace app that serves the buying and selling needs of Yale affliates.',
+        imgSrc: '',
         team: 'Chen, Goh, Liu, Qian, Sharma, Zhang',
         repoSrc: 'https://github.com/yale-swe/s22-ymarket'
     }
