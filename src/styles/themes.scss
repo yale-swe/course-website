@@ -2,10 +2,16 @@
   --primary-color: #66ccff;
   --text-color: #2c2c2c;
   --bg-color: #ffffff;
+  --hr-line: rgb(40, 195, 247);
+  --card-bg-color: rgb(245, 245, 245);
+  --card-shadow-color: rgba(100, 100, 100, 0.35);
 }
 
 :root[data-theme='theme-dark'] {
   --primary-color: #49afd9;
   --text-color: #ffffff;
   --bg-color: #1b1b1b;
+  --hr-line: rgb(40, 195, 247);
+  --card-bg-color: rgb(58, 58, 58);
+  --card-shadow-color: rgba(0, 0, 0, 0.45);
 }

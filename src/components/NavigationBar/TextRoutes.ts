@@ -8,7 +8,7 @@ const TEXT_ROUTES: TextRoute[] = [
     { route: '/staff', label: 'staff' },
     { route: '/projects', label: 'projects' },
     { route: '/docs', label: 'docs' },
-    { route: '/contact', label: 'contact' }
+    { route: '/community', label: 'community' }
 ];
 
 export default TEXT_ROUTES;

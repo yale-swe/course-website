@@ -9,40 +9,45 @@ type ProjectType = {
     imgSrc: string;
     repoSrc: string | undefined;
     website: string | undefined;
+    presentation: string | undefined;
 };
 
 const PROJECTS_S21: ProjectType[] = [
     {
         name: 'Bulletin',
-        desc: 'project description 1',
+        desc: 'A cross-source personalized news board, giving people the ability to easily get information from different sources like social media platforms, news websites, and so on.',
         imgSrc: 'https://source.unsplash.com/random',
         team: 'J Gis, X Ed',
         repoSrc: undefined,
-        website: undefined
+        website: undefined,
+        presentation: undefined
     },
     {
         name: 'Calyco',
-        desc: 'project description 2',
+        desc: 'A calendar-based social media mobile app designed to take the trouble out of coordinating events between college students in different time zones while also serving as an all-in-one digital diary for students to cherish and share their day-to-day with others.',
         imgSrc: 'https://source.unsplash.com/random',
         team: 'J Gis, X Ed',
         repoSrc: undefined,
-        website: undefined
+        website: undefined,
+        presentation: undefined
     },
     {
         name: 'EasyStart',
-        desc: 'project description 3',
+        desc: 'A web app called EasyStart that bridges the connection for people to find like-minded individuals to work on projects together. The app enables users to connect with like-minded individuals, foster meaningful connections, and stimulate creativity to design and build their dream projects.',
         imgSrc: 'https://source.unsplash.com/random',
         team: 'J Gis, X Ed',
         repoSrc: undefined,
-        website: undefined
+        website: undefined,
+        presentation: undefined
     },
     {
         name: 'Garagio',
-        desc: 'project description 4',
+        desc: 'Garagio is a web based application enabling auto service customers to easily find and compare the best auto service deals around them, and book services with various providers. Booking are automatically fed into the Garagio shop management system for the auto service provider.',
         imgSrc: 'https://source.unsplash.com/random',
         team: 'J Gis, X Ed',
         repoSrc: undefined,
-        website: undefined
+        website: undefined,
+        presentation: undefined
     },
     {
         name: 'Mos',
@@ -50,7 +55,8 @@ const PROJECTS_S21: ProjectType[] = [
         imgSrc: 'https://source.unsplash.com/random',
         team: 'J Gis, X Ed',
         repoSrc: undefined,
-        website: undefined
+        website: undefined,
+        presentation: undefined
     },
     {
         name: 'Next',
@@ -58,7 +64,8 @@ const PROJECTS_S21: ProjectType[] = [
         imgSrc: 'https://source.unsplash.com/random',
         team: 'J Gis, X Ed',
         repoSrc: undefined,
-        website: undefined
+        website: undefined,
+        presentation: undefined
     },
     {
         name: 'Research For All',
@@ -66,7 +73,8 @@ const PROJECTS_S21: ProjectType[] = [
         imgSrc: 'https://source.unsplash.com/random',
         team: 'J Gis, X Ed',
         repoSrc: undefined,
-        website: undefined
+        website: undefined,
+        presentation: undefined
     },
     {
         name: 'Standup Master',
@@ -74,7 +82,8 @@ const PROJECTS_S21: ProjectType[] = [
         imgSrc: 'https://source.unsplash.com/random',
         team: 'J Gis, X Ed',
         repoSrc: undefined,
-        website: undefined
+        website: undefined,
+        presentation: undefined
     },
     {
         name: 'The Suite Life',
@@ -82,7 +91,8 @@ const PROJECTS_S21: ProjectType[] = [
         imgSrc: 'https://source.unsplash.com/random',
         team: 'J Gis, X Ed',
         repoSrc: undefined,
-        website: undefined
+        website: undefined,
+        presentation: undefined
     },
     {
         name: 'YPool',
@@ -90,7 +100,8 @@ const PROJECTS_S21: ProjectType[] = [
         imgSrc: 'https://source.unsplash.com/random',
         team: 'J Gis, X Ed',
         repoSrc: undefined,
-        website: undefined
+        website: undefined,
+        presentation: undefined
     }
 ];
 
@@ -101,7 +112,8 @@ const PROJECTS_S22: ProjectType[] = [
         imgSrc: '/assets/appily-logo.png',
         team: 'Craven, Dang, Feng, Fernandez de Lara, Katko, Martinez, Ong',
         repoSrc: 'https://github.com/yale-swe/s22-internship-tracker',
-        website: undefined
+        website: undefined,
+        presentation: undefined
     },
     {
         name: 'Campaign Wallet',
@@ -109,7 +121,8 @@ const PROJECTS_S22: ProjectType[] = [
         imgSrc: 'https://raw.githubusercontent.com/yale-swe/s22-campaign-finance/main/dist/img/campaign_finance_logo.png?token=GHSAT0AAAAAABT5KYM6K5ZKO47UGBFC3EX6YX32VFA',
         team: 'Chen, Hsu, Macri, Mehrotra, Mitra, Selin',
         repoSrc: 'https://github.com/yale-swe/s22-campaign-finance',
-        website: undefined
+        website: undefined,
+        presentation: undefined
     },
     {
         name: 'HouseMe',
@@ -117,7 +130,8 @@ const PROJECTS_S22: ProjectType[] = [
         imgSrc: 'https://source.unsplash.com/random',
         team: 'Callanan, Grady, Kaur, Qu, Romero, Sharma, Tang',
         repoSrc: 'https://github.com/yale-swe/s22-college-sublet',
-        website: 'http://housemestudent.com/'
+        website: 'http://housemestudent.com/',
+        presentation: undefined
     },
     {
         name: 'DownToTruck',
@@ -125,7 +139,8 @@ const PROJECTS_S22: ProjectType[] = [
         imgSrc: 'https://source.unsplash.com/random',
         team: 'Orr, Salinas-Arreola, Slaughter, Sultan, Wang, Yin',
         repoSrc: 'https://github.com/yale-swe/s22-downtotruck',
-        website: undefined
+        website: undefined,
+        presentation: undefined
     },
     {
         name: 'Eloit',
@@ -133,7 +148,8 @@ const PROJECTS_S22: ProjectType[] = [
         imgSrc: 'https://source.unsplash.com/random',
         team: "Hou, Jain, Kantamneni, Milkessa, O'Connor, Wu",
         repoSrc: 'https://github.com/yale-swe/s22-eloit',
-        website: undefined
+        website: undefined,
+        presentation: undefined
     },
     {
         name: 'Jumble',
@@ -141,7 +157,8 @@ const PROJECTS_S22: ProjectType[] = [
         imgSrc: 'https://source.unsplash.com/random',
         team: 'Hodeta, Lazzaretti, Liu, Qu, Tang, Tigistu, Zhang',
         repoSrc: 'https://github.com/yale-swe/s22-entertainment-archives',
-        website: undefined
+        website: undefined,
+        presentation: undefined
     },
     {
         name: 'Morphic',
@@ -149,7 +166,8 @@ const PROJECTS_S22: ProjectType[] = [
         imgSrc: 'https://source.unsplash.com/random',
         team: 'Hu, Kopits, Luo, Reichenbach, Sheth',
         repoSrc: 'https://github.com/yale-swe/s22-datasethub',
-        website: undefined
+        website: undefined,
+        presentation: undefined
     },
     {
         name: 'TravelPlanner',
@@ -157,7 +175,8 @@ const PROJECTS_S22: ProjectType[] = [
         imgSrc: 'https://source.unsplash.com/random',
         team: 'Carroll, Chen, Liang, Valencia, Wang, Zhao, Zou',
         repoSrc: 'https://github.com/yale-swe/s22-travelplanner',
-        website: undefined
+        website: undefined,
+        presentation: undefined
     },
     {
         name: 'Yale Daily News Mobile App',
@@ -165,7 +184,8 @@ const PROJECTS_S22: ProjectType[] = [
         imgSrc: 'https://source.unsplash.com/random',
         team: 'Gedi, Gondal, Kim, Lauriette, Oluwadairo, Rahman, Reiner',
         repoSrc: 'https://github.com/yale-swe/s22-ydn-mobile',
-        website: undefined
+        website: undefined,
+        presentation: undefined
     },
     {
         name: 'YMarket',
@@ -173,7 +193,8 @@ const PROJECTS_S22: ProjectType[] = [
         imgSrc: '',
         team: 'Chen, Goh, Liu, Qian, Sharma, Zhang',
         repoSrc: 'https://github.com/yale-swe/s22-ymarket',
-        website: undefined
+        website: undefined,
+        presentation: undefined
     }
 ];
 
@@ -207,7 +228,15 @@ const Projects = () => {
                     }}
                 />
                 {PROJECTS_S22.map(
-                    ({ name, desc, team, imgSrc, repoSrc, website }) => (
+                    ({
+                        name,
+                        desc,
+                        team,
+                        imgSrc,
+                        repoSrc,
+                        website,
+                        presentation
+                    }) => (
                         <ProjectContent
                             key={name}
                             projectName={name}
@@ -216,6 +245,7 @@ const Projects = () => {
                             projectImgSrc={imgSrc}
                             projectRepoSrc={repoSrc}
                             projectWebsite={website}
+                            projectPresentation={presentation}
                         />
                     )
                 )}
@@ -231,7 +261,15 @@ const Projects = () => {
                     }}
                 />
                 {PROJECTS_S21.map(
-                    ({ name, desc, team, imgSrc, repoSrc, website }) => (
+                    ({
+                        name,
+                        desc,
+                        team,
+                        imgSrc,
+                        repoSrc,
+                        website,
+                        presentation
+                    }) => (
                         <ProjectContent
                             key={name}
                             projectName={name}
@@ -240,6 +278,7 @@ const Projects = () => {
                             projectImgSrc={imgSrc}
                             projectRepoSrc={repoSrc}
                             projectWebsite={website}
+                            projectPresentation={presentation}
                         />
                     )
                 )}

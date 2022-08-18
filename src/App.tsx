@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import useStickyState from './hooks/useStickyState';
 import About from './screens/About';
+import Community from './screens/Community';
 import Docs from './screens/Docs';
 import Home from './screens/Home';
 import Projects from './screens/Projects';
@@ -22,7 +23,7 @@ const App = () => {
                 <Route path="/staff" element={<UnderConstruction />} />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/docs" element={<Docs />} />
-                <Route path="/contact" element={<UnderConstruction />} />
+                <Route path="/community" element={<Community />} />
             </Routes>
         </BrowserRouter>
     );
