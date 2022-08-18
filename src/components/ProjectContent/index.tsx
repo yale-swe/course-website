@@ -3,15 +3,14 @@ import styles from './styles.module.scss';
 
 // import { Link } from 'react-router-dom';
 
-function ProjectRepoLink(props: { repoLink: string | undefined }) {
-    const repoLink = props.repoLink;
+function ProjectLink(props: { name: string; link: string | undefined }) {
+    const name = props.name;
+    const link = props.link;
 
-    if (repoLink != undefined) {
+    if (link != undefined) {
         return (
             <div className={styles['project-repo']}>
-                {/* <Link to={projectRepoSrc}>Repo</Link> */}
-                <a href={repoLink}>Repository</a>
-                {/* {projectRepoSrc} */}
+                <a href={link}>{name}</a>
             </div>
         );
     } else {
@@ -19,18 +18,35 @@ function ProjectRepoLink(props: { repoLink: string | undefined }) {
     }
 }
 
+function ProjectLinks(props: {
+    repoLink: string | undefined;
+    websiteLink: string | undefined;
+}) {
+    const repoLink = props.repoLink;
+    const websiteLink = props.websiteLink;
+
+    return (
+        <div>
+            <ProjectLink link={repoLink} name="Repository"></ProjectLink>
+            <ProjectLink link={websiteLink} name="Website"></ProjectLink>
+        </div>
+    );
+}
+
 export const ProjectContent = ({
     projectName,
     projectDesc,
     projectTeam,
     projectImgSrc,
-    projectRepoSrc
+    projectRepoSrc,
+    projectWebsite
 }: {
     projectName: string;
     projectDesc: string;
     projectTeam: string;
     projectImgSrc: string;
     projectRepoSrc: string | undefined;
+    projectWebsite: string | undefined;
 }) => {
     return (
         <div className={styles['project-container']}>
@@ -39,7 +55,10 @@ export const ProjectContent = ({
             </div>
             <div className={styles['project-name']}>{projectName}</div>
             <div className={styles['project-description']}>{projectDesc}</div>
-            <ProjectRepoLink repoLink={projectRepoSrc}></ProjectRepoLink>
+            <ProjectLinks
+                repoLink={projectRepoSrc}
+                websiteLink={projectWebsite}
+            ></ProjectLinks>
             <div className={styles['project-team']}>
                 Built by: {projectTeam}
             </div>

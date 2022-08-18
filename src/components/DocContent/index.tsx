@@ -8,8 +8,12 @@ function DocImage(props: { imgUrl: string | undefined }) {
 
     if (imgUrl != undefined) {
         return (
-            <div className={styles['doc-url']}>
-                <img src={imgUrl}></img>
+            <div className={styles['doc-img']}>
+                <img
+                    height="100%"
+                    src={imgUrl}
+                    className={styles['doc-img']}
+                ></img>
             </div>
         );
     } else {
@@ -32,6 +36,17 @@ function DocName(props: { docName: string; docUrl: string | undefined }) {
     }
 }
 
+function DocDesc(props: { docDesc: string; docImgSrc: string | undefined }) {
+    const docDesc = props.docDesc;
+    const docImgSrc = props.docImgSrc;
+
+    if (docImgSrc != undefined) {
+        return <div className={styles['doc-description-short']}>{docDesc}</div>;
+    } else {
+        return <div className={styles['doc-description']}>{docDesc}</div>;
+    }
+}
+
 export const DocContent = ({
     docName,
     docDesc,
@@ -49,7 +64,8 @@ export const DocContent = ({
                 <DocImage imgUrl={docImgSrc}></DocImage>
             </div>
             <DocName docName={docName} docUrl={docUrl}></DocName>
-            <div className={styles['doc-description']}>{docDesc}</div>
+            <DocDesc docDesc={docDesc} docImgSrc={docImgSrc}></DocDesc>
+            {/* <div className={styles['doc-description']}>{docDesc}</div> */}
         </div>
     );
 };
