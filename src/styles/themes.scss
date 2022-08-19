@@ -1,8 +1,10 @@
 :root[data-theme='theme-light'] {
   --primary-color: #66ccff;
   --text-color: #2c2c2c;
+  --text-color-inactive: rgba(21, 21, 21, 0.4);
   --bg-color: #ffffff;
   --hr-line: rgb(40, 195, 247);
+  --hr-line-vl: rgb(249, 110, 231);
   --card-bg-color: rgb(245, 245, 245);
   --card-shadow-color: rgba(100, 100, 100, 0.35);
 }
@@ -10,8 +12,10 @@
 :root[data-theme='theme-dark'] {
   --primary-color: #49afd9;
   --text-color: #ffffff;
+  --text-color-inactive: rgba(250, 250, 250, 0.4);
   --bg-color: #1b1b1b;
   --hr-line: rgb(40, 195, 247);
+  --hr-line-vl: rgb(249, 110, 231);
   --card-bg-color: rgb(58, 58, 58);
   --card-shadow-color: rgba(0, 0, 0, 0.45);
 }

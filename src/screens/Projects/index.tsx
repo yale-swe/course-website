@@ -10,6 +10,7 @@ type ProjectType = {
     repoSrc: string | undefined;
     website: string | undefined;
     presentation: string | undefined;
+    height: string | undefined;
 };
 
 const PROJECTS_S21: ProjectType[] = [
@@ -17,91 +18,101 @@ const PROJECTS_S21: ProjectType[] = [
         name: 'Bulletin',
         desc: 'A cross-source personalized news board, giving people the ability to easily get information from different sources like social media platforms, news websites, and so on.',
         imgSrc: 'https://source.unsplash.com/random',
-        team: 'J Gis, X Ed',
+        team: 'Trehan, Ip, Schwab, Shatry, Omonije',
         repoSrc: undefined,
         website: undefined,
-        presentation: undefined
+        presentation: undefined,
+        height: '220px'
     },
     {
         name: 'Calyco',
         desc: 'A calendar-based social media mobile app designed to take the trouble out of coordinating events between college students in different time zones while also serving as an all-in-one digital diary for students to cherish and share their day-to-day with others.',
         imgSrc: 'https://source.unsplash.com/random',
-        team: 'J Gis, X Ed',
+        team: 'Li, Jong, Rhee, Choi, Kawamura',
         repoSrc: undefined,
         website: undefined,
-        presentation: undefined
+        presentation: undefined,
+        height: undefined
     },
     {
         name: 'EasyStart',
         desc: 'A web app called EasyStart that bridges the connection for people to find like-minded individuals to work on projects together. The app enables users to connect with like-minded individuals, foster meaningful connections, and stimulate creativity to design and build their dream projects.',
         imgSrc: 'https://source.unsplash.com/random',
-        team: 'J Gis, X Ed',
+        team: 'Shen, Zhang, Wu, Wei, Cheng',
         repoSrc: undefined,
         website: undefined,
-        presentation: undefined
+        presentation: undefined,
+        height: undefined
     },
     {
         name: 'Garagio',
         desc: 'Garagio is a web based application enabling auto service customers to easily find and compare the best auto service deals around them, and book services with various providers. Booking are automatically fed into the Garagio shop management system for the auto service provider.',
         imgSrc: 'https://source.unsplash.com/random',
-        team: 'J Gis, X Ed',
+        team: 'Burbano, Palmer, Kavaliauskas, Viyar',
         repoSrc: undefined,
         website: undefined,
-        presentation: undefined
+        presentation: undefined,
+        height: undefined
     },
     {
         name: 'Mos',
         desc: 'project description 4',
         imgSrc: 'https://source.unsplash.com/random',
-        team: 'J Gis, X Ed',
+        team: 'Rono, Hague, Cheng, Danchenko, Goncalves Cardoso, Ashenafi',
         repoSrc: undefined,
         website: undefined,
-        presentation: undefined
+        presentation: undefined,
+        height: undefined
     },
     {
         name: 'Next',
-        desc: 'project description 4',
+        desc: 'Next is an interactive music streaming platform that focuses on group listening. Users can join rooms where they can suggest and vote on the next song to add to the playlist.',
         imgSrc: 'https://source.unsplash.com/random',
-        team: 'J Gis, X Ed',
+        team: 'Chousal Cantu, Blank, Adbaru, Li, Alonso Bilfinger, Wu',
         repoSrc: undefined,
         website: undefined,
-        presentation: undefined
+        presentation: undefined,
+        height: '220px'
     },
     {
         name: 'Research For All',
         desc: 'project description 4',
         imgSrc: 'https://source.unsplash.com/random',
-        team: 'J Gis, X Ed',
+        team: 'Ortega, Miranda, Sage-Martinson, Villarreal Cavazos, Hussain',
         repoSrc: undefined,
         website: undefined,
-        presentation: undefined
+        presentation: undefined,
+        height: undefined
     },
     {
         name: 'Standup Master',
         desc: 'project description 4',
         imgSrc: 'https://source.unsplash.com/random',
-        team: 'J Gis, X Ed',
+        team: 'Lopez, Yang, Joseph, Cai, Sun, Li',
         repoSrc: undefined,
         website: undefined,
-        presentation: undefined
+        presentation: undefined,
+        height: undefined
     },
     {
         name: 'The Suite Life',
-        desc: 'project description 4',
+        desc: 'Chen, Eggleston, Pan, Rudder, Shan, Thompson',
         imgSrc: 'https://source.unsplash.com/random',
-        team: 'J Gis, X Ed',
+        team: 'Chen, Eggleston, Pan, Rudder, Shan, Thompson',
         repoSrc: undefined,
         website: undefined,
-        presentation: undefined
+        presentation: undefined,
+        height: undefined
     },
     {
         name: 'YPool',
         desc: 'project description 4',
         imgSrc: 'https://source.unsplash.com/random',
-        team: 'J Gis, X Ed',
+        team: 'Arcia, Mensah, Sanchez, Ababio, Truong',
         repoSrc: undefined,
         website: undefined,
-        presentation: undefined
+        presentation: undefined,
+        height: undefined
     }
 ];
 
@@ -113,16 +124,18 @@ const PROJECTS_S22: ProjectType[] = [
         team: 'Craven, Dang, Feng, Fernandez de Lara, Katko, Martinez, Ong',
         repoSrc: 'https://github.com/yale-swe/s22-internship-tracker',
         website: undefined,
-        presentation: undefined
+        presentation: undefined,
+        height: undefined
     },
     {
         name: 'Campaign Wallet',
-        desc: 'project description 2',
+        desc: 'A Chrome extension that allows users to hover over the names of Members of Congress on any website, and provides a popup providing campaign finance statistics (% of small donors, top industry donations, etc.) and other relevant details (record of misconduct, Tweets, etc.). Additional features include allowing the user to search a politician by their name and to look up politicians who are funded by a particular donor.',
         imgSrc: 'https://raw.githubusercontent.com/yale-swe/s22-campaign-finance/main/dist/img/campaign_finance_logo.png?token=GHSAT0AAAAAABT5KYM6K5ZKO47UGBFC3EX6YX32VFA',
         team: 'Chen, Hsu, Macri, Mehrotra, Mitra, Selin',
         repoSrc: 'https://github.com/yale-swe/s22-campaign-finance',
         website: undefined,
-        presentation: undefined
+        presentation: undefined,
+        height: '300px'
     },
     {
         name: 'HouseMe',
@@ -131,7 +144,8 @@ const PROJECTS_S22: ProjectType[] = [
         team: 'Callanan, Grady, Kaur, Qu, Romero, Sharma, Tang',
         repoSrc: 'https://github.com/yale-swe/s22-college-sublet',
         website: 'http://housemestudent.com/',
-        presentation: undefined
+        presentation: undefined,
+        height: '170px'
     },
     {
         name: 'DownToTruck',
@@ -140,7 +154,8 @@ const PROJECTS_S22: ProjectType[] = [
         team: 'Orr, Salinas-Arreola, Slaughter, Sultan, Wang, Yin',
         repoSrc: 'https://github.com/yale-swe/s22-downtotruck',
         website: undefined,
-        presentation: undefined
+        presentation: undefined,
+        height: undefined
     },
     {
         name: 'Eloit',
@@ -149,7 +164,8 @@ const PROJECTS_S22: ProjectType[] = [
         team: "Hou, Jain, Kantamneni, Milkessa, O'Connor, Wu",
         repoSrc: 'https://github.com/yale-swe/s22-eloit',
         website: undefined,
-        presentation: undefined
+        presentation: undefined,
+        height: undefined
     },
     {
         name: 'Jumble',
@@ -158,7 +174,8 @@ const PROJECTS_S22: ProjectType[] = [
         team: 'Hodeta, Lazzaretti, Liu, Qu, Tang, Tigistu, Zhang',
         repoSrc: 'https://github.com/yale-swe/s22-entertainment-archives',
         website: undefined,
-        presentation: undefined
+        presentation: undefined,
+        height: undefined
     },
     {
         name: 'Morphic',
@@ -167,7 +184,8 @@ const PROJECTS_S22: ProjectType[] = [
         team: 'Hu, Kopits, Luo, Reichenbach, Sheth',
         repoSrc: 'https://github.com/yale-swe/s22-datasethub',
         website: undefined,
-        presentation: undefined
+        presentation: undefined,
+        height: undefined
     },
     {
         name: 'TravelPlanner',
@@ -176,7 +194,8 @@ const PROJECTS_S22: ProjectType[] = [
         team: 'Carroll, Chen, Liang, Valencia, Wang, Zhao, Zou',
         repoSrc: 'https://github.com/yale-swe/s22-travelplanner',
         website: undefined,
-        presentation: undefined
+        presentation: undefined,
+        height: undefined
     },
     {
         name: 'Yale Daily News Mobile App',
@@ -185,7 +204,8 @@ const PROJECTS_S22: ProjectType[] = [
         team: 'Gedi, Gondal, Kim, Lauriette, Oluwadairo, Rahman, Reiner',
         repoSrc: 'https://github.com/yale-swe/s22-ydn-mobile',
         website: undefined,
-        presentation: undefined
+        presentation: undefined,
+        height: undefined
     },
     {
         name: 'YMarket',
@@ -194,7 +214,8 @@ const PROJECTS_S22: ProjectType[] = [
         team: 'Chen, Goh, Liu, Qian, Sharma, Zhang',
         repoSrc: 'https://github.com/yale-swe/s22-ymarket',
         website: undefined,
-        presentation: undefined
+        presentation: undefined,
+        height: undefined
     }
 ];
 
@@ -235,7 +256,8 @@ const Projects = () => {
                         imgSrc,
                         repoSrc,
                         website,
-                        presentation
+                        presentation,
+                        height
                     }) => (
                         <ProjectContent
                             key={name}
@@ -246,6 +268,7 @@ const Projects = () => {
                             projectRepoSrc={repoSrc}
                             projectWebsite={website}
                             projectPresentation={presentation}
+                            projectCardHeight={height}
                         />
                     )
                 )}
@@ -268,7 +291,8 @@ const Projects = () => {
                         imgSrc,
                         repoSrc,
                         website,
-                        presentation
+                        presentation,
+                        height
                     }) => (
                         <ProjectContent
                             key={name}
@@ -279,6 +303,7 @@ const Projects = () => {
                             projectRepoSrc={repoSrc}
                             projectWebsite={website}
                             projectPresentation={presentation}
+                            projectCardHeight={height}
                         />
                     )
                 )}

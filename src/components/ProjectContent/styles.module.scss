@@ -6,7 +6,7 @@
 
 .project-container {
   width: 100%;
-  height: 200px;
+  height: 240px;
   background-color: var(--bg-color);
   color: var(--text-color);
   margin-bottom: 50px;
@@ -22,7 +22,7 @@
 
 .project-image {
   width: var(--image-width);
-  height: 200px;
+  height: 240px;
   top: 0%;
   float: left;
   overflow: hidden;
@@ -57,23 +57,35 @@
   right: 5px;
   position: absolute;
   font-size: 12px;
-  border-top: 1px solid var(--hr-line);
+  // border-top: 1px solid var(--hr-line-vl);
 }
 
 .project-links {
   position: absolute;
   margin-left: calc(var(--image-width) + 20px);
   height: 30px;
-  bottom: 25px;
+  bottom: 30px;
   width: calc(100% - var(--image-width) - 20px);
   // background-color: black;
   text-align: center;
+  border-bottom: 2px solid var(--hr-line);
 }
 
 .project-repo {
   position: absolute;
   // margin-left: calc(var(--image-width) + 20px);
   height: 15px;
+  text-align: center;
+  bottom: 10px;
+  width: 65px;
+  font-size: 12px;
+}
+
+.project-repo-inactive {
+  position: absolute;
+  // margin-left: calc(var(--image-width) + 20px);
+  height: 15px;
+  color: var(--text-color-inactive);
   text-align: center;
   bottom: 10px;
   width: 65px;

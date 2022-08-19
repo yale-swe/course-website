@@ -20,7 +20,10 @@ function ProjectLink(props: {
         );
     } else {
         return (
-            <div className={styles['project-repo']} style={{ left: leftPos }}>
+            <div
+                className={styles['project-repo-inactive']}
+                style={{ left: leftPos }}
+            >
                 {name}
             </div>
         );
@@ -64,7 +67,8 @@ export const ProjectContent = ({
     projectImgSrc,
     projectRepoSrc,
     projectWebsite,
-    projectPresentation
+    projectPresentation,
+    projectCardHeight
 }: {
     projectName: string;
     projectDesc: string;
@@ -73,10 +77,17 @@ export const ProjectContent = ({
     projectRepoSrc: string | undefined;
     projectWebsite: string | undefined;
     projectPresentation: string | undefined;
+    projectCardHeight: string | undefined;
 }) => {
     return (
-        <div className={styles['project-container']}>
-            <div className={styles['project-image']}>
+        <div
+            className={styles['project-container']}
+            style={{ height: projectCardHeight }}
+        >
+            <div
+                className={styles['project-image']}
+                style={{ height: projectCardHeight }}
+            >
                 <img src={projectImgSrc}></img>
             </div>
             <div className={styles['project-name']}>{projectName}</div>
@@ -87,7 +98,7 @@ export const ProjectContent = ({
                 presentationLink={projectPresentation}
             ></ProjectLinks>
             <div className={styles['project-team']}>
-                Built by: {projectTeam}
+                <b>Team</b>: {projectTeam}
             </div>
         </div>
     );
