@@ -33,12 +33,26 @@
 
 .content-container h2 {
   font-family: Roboto-Regular;
-  font-size: 28px;
+  font-size: 30px;
   color: var(--text-color);
   text-align: left;
   width: 100%;
-  height: 20px;
+  height: 50px;
   font-weight: 600;
+  margin-bottom: 40px;
+  border-bottom: 2px solid rgb(40, 195, 247);
+}
+
+.content-container h3 {
+  font-family: Roboto-Regular;
+  font-size: 22px;
+  color: var(--text-color);
+  text-align: left;
+  width: 100%;
+  height: 40px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  border-bottom: 2px solid rgb(40, 195, 247);
 }
 
 .project-container {

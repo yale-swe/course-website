@@ -124,7 +124,8 @@ const PROJECTS_S22: ProjectType[] = [
         team: 'Craven, Dang, Feng, Fernandez de Lara, Katko, Martinez, Ong',
         repoSrc: 'https://github.com/yale-swe/s22-internship-tracker',
         website: undefined,
-        presentation: undefined,
+        presentation:
+            'https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8890b0b1-d83f-4d93-aa1c-aef90049a263',
         height: undefined
     },
     {
@@ -134,7 +135,8 @@ const PROJECTS_S22: ProjectType[] = [
         team: 'Chen, Hsu, Macri, Mehrotra, Mitra, Selin',
         repoSrc: 'https://github.com/yale-swe/s22-campaign-finance',
         website: undefined,
-        presentation: undefined,
+        presentation:
+            'https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3a8e08ae-ea72-4220-896a-aef90049a19d',
         height: '300px'
     },
     {
@@ -144,7 +146,8 @@ const PROJECTS_S22: ProjectType[] = [
         team: 'Callanan, Grady, Kaur, Qu, Romero, Sharma, Tang',
         repoSrc: 'https://github.com/yale-swe/s22-college-sublet',
         website: 'http://housemestudent.com/',
-        presentation: undefined,
+        presentation:
+            'https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d4bbe676-fbda-4cbe-9349-aef90047f13b',
         height: '170px'
     },
     {
@@ -154,7 +157,8 @@ const PROJECTS_S22: ProjectType[] = [
         team: 'Orr, Salinas-Arreola, Slaughter, Sultan, Wang, Yin',
         repoSrc: 'https://github.com/yale-swe/s22-downtotruck',
         website: undefined,
-        presentation: undefined,
+        presentation:
+            'https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3a8e08ae-ea72-4220-896a-aef90049a19d',
         height: undefined
     },
     {
@@ -164,7 +168,8 @@ const PROJECTS_S22: ProjectType[] = [
         team: "Hou, Jain, Kantamneni, Milkessa, O'Connor, Wu",
         repoSrc: 'https://github.com/yale-swe/s22-eloit',
         website: undefined,
-        presentation: undefined,
+        presentation:
+            'https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3d266e51-eae9-4641-ad84-aef90049a175',
         height: undefined
     },
     {
@@ -184,7 +189,8 @@ const PROJECTS_S22: ProjectType[] = [
         team: 'Hu, Kopits, Luo, Reichenbach, Sheth',
         repoSrc: 'https://github.com/yale-swe/s22-datasethub',
         website: undefined,
-        presentation: undefined,
+        presentation:
+            'https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3a8e08ae-ea72-4220-896a-aef90049a19d',
         height: undefined
     },
     {
@@ -204,7 +210,8 @@ const PROJECTS_S22: ProjectType[] = [
         team: 'Gedi, Gondal, Kim, Lauriette, Oluwadairo, Rahman, Reiner',
         repoSrc: 'https://github.com/yale-swe/s22-ydn-mobile',
         website: undefined,
-        presentation: undefined,
+        presentation:
+            'https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a26e9773-3bda-42cd-82ae-aef90047f0e5',
         height: undefined
     },
     {
@@ -214,7 +221,8 @@ const PROJECTS_S22: ProjectType[] = [
         team: 'Chen, Goh, Liu, Qian, Sharma, Zhang',
         repoSrc: 'https://github.com/yale-swe/s22-ymarket',
         website: undefined,
-        presentation: undefined,
+        presentation:
+            'https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=292ee4d2-2e1d-418f-aad9-aef90047f193',
         height: undefined
     }
 ];
@@ -227,27 +235,9 @@ const Projects = () => {
                 <h1>Projects</h1>
                 <div style={{ marginBottom: '30px' }}></div>
                 <h2>Fall 2022</h2>
-                <hr
-                    style={{
-                        background: 'black',
-                        color: 'black',
-                        height: '1px',
-                        width: '100%',
-                        marginBottom: '20px'
-                    }}
-                />
                 TBA
                 <div style={{ height: '50px' }}></div>
-                <h2>Spring 2022</h2>
-                <hr
-                    style={{
-                        background: 'black',
-                        color: 'black',
-                        height: '1px',
-                        width: '100%',
-                        marginBottom: '20px'
-                    }}
-                />
+                <h3>Spring 2022</h3>
                 {PROJECTS_S22.map(
                     ({
                         name,
@@ -273,16 +263,7 @@ const Projects = () => {
                     )
                 )}
                 <div style={{ height: '50px' }}></div>
-                <h2>Spring 2021</h2>
-                <hr
-                    style={{
-                        background: 'black',
-                        color: 'black',
-                        height: '1px',
-                        width: '100%',
-                        marginBottom: '20px'
-                    }}
-                />
+                <h3>Spring 2021</h3>
                 {PROJECTS_S21.map(
                     ({
                         name,

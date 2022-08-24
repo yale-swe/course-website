@@ -6,6 +6,7 @@ import styles from './styles.module.scss';
 function ProjectLink(props: {
     name: string;
     link: string | undefined;
+    linkPrv: boolean;
     left: string;
 }) {
     const name = props.name;
@@ -13,11 +14,25 @@ function ProjectLink(props: {
     const leftPos = props.left;
 
     if (link != undefined) {
-        return (
-            <div className={styles['project-repo']} style={{ left: leftPos }}>
-                <a href={link}>{name}</a>
-            </div>
-        );
+        if (props.linkPrv) {
+            return (
+                <div
+                    className={styles['project-repo']}
+                    style={{ left: leftPos }}
+                >
+                    <a href={link}>{name}🔒</a>
+                </div>
+            );
+        } else {
+            return (
+                <div
+                    className={styles['project-repo']}
+                    style={{ left: leftPos }}
+                >
+                    <a href={link}>{name}</a>
+                </div>
+            );
+        }
     } else {
         return (
             <div
@@ -34,6 +49,7 @@ function ProjectLinks(props: {
     repoLink: string | undefined;
     websiteLink: string | undefined;
     presentationLink: string | undefined;
+    presentationLinkPrv: boolean;
 }) {
     const repoLink = props.repoLink;
     const websiteLink = props.websiteLink;
@@ -45,16 +61,19 @@ function ProjectLinks(props: {
                 link={repoLink}
                 name="Repository"
                 left="0px"
+                linkPrv={false}
             ></ProjectLink>
             <ProjectLink
                 link={websiteLink}
                 name="Website"
-                left="80px"
+                left="85px"
+                linkPrv={false}
             ></ProjectLink>
             <ProjectLink
                 link={presentationLink}
                 name="Presentation"
-                left="160px"
+                left="180px"
+                linkPrv={props.presentationLinkPrv}
             ></ProjectLink>
         </div>
     );
@@ -96,6 +115,7 @@ export const ProjectContent = ({
                 repoLink={projectRepoSrc}
                 websiteLink={projectWebsite}
                 presentationLink={projectPresentation}
+                presentationLinkPrv={true}
             ></ProjectLinks>
             <div className={styles['project-team']}>
                 <b>Team</b>: {projectTeam}
