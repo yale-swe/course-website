@@ -70,7 +70,7 @@ const Docs = () => {
                 ></DocContent>
                 <div className={styles['vrgap']}></div>
 
-                <h2>Documentation</h2>
+                {/* <h2>Documentation</h2>
                 <DocContent
                     docName=""
                     docDesc=""
@@ -79,7 +79,7 @@ const Docs = () => {
                 ></DocContent>
                 <div className={styles['vrgap']}></div>
 
-                <h2>Useful Resources</h2>
+                <h2>Useful Resources</h2> */}
             </div>
         </div>
     );

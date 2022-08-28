@@ -50,13 +50,22 @@ function ProjectLinks(props: {
     websiteLink: string | undefined;
     presentationLink: string | undefined;
     presentationLinkPrv: boolean;
+    withImage: boolean;
 }) {
     const repoLink = props.repoLink;
     const websiteLink = props.websiteLink;
     const presentationLink = props.presentationLink;
+    const withImage = props.withImage;
+
+    let styleGen;
+    if (withImage) {
+        styleGen = {};
+    } else {
+        styleGen = { marginLeft: '20px', width: 'calc(100% - 20px)' };
+    }
 
     return (
-        <div className={styles['project-links']}>
+        <div className={styles['project-links']} style={styleGen}>
             <ProjectLink
                 link={repoLink}
                 name="Repository"
@@ -92,32 +101,48 @@ export const ProjectContent = ({
     projectName: string;
     projectDesc: string;
     projectTeam: string;
-    projectImgSrc: string;
+    projectImgSrc: string | undefined;
     projectRepoSrc: string | undefined;
     projectWebsite: string | undefined;
     projectPresentation: string | undefined;
     projectCardHeight: string | undefined;
 }) => {
-    return (
-        <div
-            className={styles['project-container']}
-            style={{ height: projectCardHeight }}
-        >
+    let styleGen;
+    let image;
+    if (projectImgSrc) {
+        image = (
             <div
                 className={styles['project-image']}
                 style={{ height: projectCardHeight }}
             >
                 <img src={projectImgSrc}></img>
             </div>
-            <div className={styles['project-name']}>{projectName}</div>
-            <div className={styles['project-description']}>{projectDesc}</div>
+        );
+        styleGen = {};
+    } else {
+        image = <div></div>;
+        styleGen = { marginLeft: '20px', width: 'calc(100% - 20px)' };
+    }
+    return (
+        <div
+            className={styles['project-container']}
+            style={{ height: projectCardHeight }}
+        >
+            {image}
+            <div className={styles['project-name']} style={styleGen}>
+                {projectName}
+            </div>
+            <div className={styles['project-description']} style={styleGen}>
+                {projectDesc}
+            </div>
             <ProjectLinks
                 repoLink={projectRepoSrc}
                 websiteLink={projectWebsite}
                 presentationLink={projectPresentation}
                 presentationLinkPrv={true}
+                withImage={projectImgSrc != undefined}
             ></ProjectLinks>
-            <div className={styles['project-team']}>
+            <div className={styles['project-team']} style={styleGen}>
                 <b>Team</b>: {projectTeam}
             </div>
         </div>
