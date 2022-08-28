@@ -21,12 +21,13 @@
 }
 
 .project-image {
+  background-repeat: no-repeat;
+  background-size: cover;
   width: var(--image-width);
   height: 240px;
   top: 0%;
   float: left;
   overflow: hidden;
-  object-fit: contain;
 }
 
 .project-name {

@@ -76,7 +76,7 @@ const PROJECTS_S21: ProjectType[] = [
     },
     {
         name: 'Research For All',
-        desc: '',
+        desc: "This project is a web application designed to allow users to comment their thoughts/reviews on research papers so that other users can benefit from them. The web application also provides a platform for researchers to document their currently reading/wish-to-read papers and allows them to find papers of their interest from other users' lists.",
         imgSrc: undefined,
         team: 'S. Hussain, R. Miranda, D. Ortega, C. Poston, E. Sage-Martinson, D. Villarreal Cavazos',
         repoSrc: undefined,
@@ -86,33 +86,33 @@ const PROJECTS_S21: ProjectType[] = [
     },
     {
         name: 'Standup Master',
-        desc: '',
+        desc: 'The Standup Master app aims at helping users easily manage their daily standup meetings. With the presentation card prepared before the meeting, users can easily deliver a concise and clear presentation in a short period of time while keeping others updated.',
         imgSrc: undefined,
         team: 'L. Cai, D. Joseph, K. Li, R. Lopez, S. Sun, J. Yang',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
-        height: undefined
+        height: '220px'
     },
     {
         name: 'The Suite Life',
-        desc: '',
+        desc: 'This app helps new college undergraduates and young adults that are rooming within groups, by helping them organize and adress common primary pain points assocaited with rooming, so that suitemates may avoid potential confrontations about chores, payments, and suite rules.',
         imgSrc: undefined,
         team: 'L. Chen, L. Eggleston, J. Pan, K. Rudder, J. Shan, S. Thompson',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
-        height: undefined
+        height: '220px'
     },
     {
         name: 'YPool',
-        desc: '',
+        desc: 'YPool presents a safe and affordable means of splitting rides among members of the Yale community, where students are matched with others based on their travel arrangements and preferences.',
         imgSrc: undefined,
         team: 'O. Ababio, A. Arcia, A. Mensah, D. Sanchez, J. Truong',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
-        height: undefined
+        height: '200px'
     }
 ];
 
@@ -153,7 +153,8 @@ const PROJECTS_S22: ProjectType[] = [
     {
         name: 'DownToTruck',
         desc: 'DownToTruck is a mobile app that gives "diners" the ability to observe the food truck landscape in any city, as food trucks easily broadcast information about their hours, inventory, and location in real time. The app is directed towards College Students, capturing a reliable user base.',
-        imgSrc: '/assets/down-to-truck-logo.png',
+        // imgSrc: '/assets/down-to-truck-logo.png',
+        imgSrc: undefined,
         team: 'C. Orr, F. Salinas-Arreola, E. Slaughter, S. Sultan, A. Wang, S. Yin',
         repoSrc: 'https://github.com/yale-swe/s22-downtotruck',
         website: undefined,

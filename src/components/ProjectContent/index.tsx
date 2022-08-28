@@ -113,10 +113,11 @@ export const ProjectContent = ({
         image = (
             <div
                 className={styles['project-image']}
-                style={{ height: projectCardHeight }}
-            >
-                <img src={projectImgSrc}></img>
-            </div>
+                style={{
+                    height: projectCardHeight,
+                    backgroundImage: 'url("' + projectImgSrc + '")'
+                }}
+            ></div>
         );
         styleGen = {};
     } else {
