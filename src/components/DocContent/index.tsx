@@ -1,7 +1,4 @@
-// import { useWindowWidth } from '@react-hook/window-size';
 import styles from './styles.module.scss';
-
-// import { Link } from 'react-router-dom';
 
 function DocImage(props: { imgUrl: string | undefined }) {
     const imgUrl = props.imgUrl;
