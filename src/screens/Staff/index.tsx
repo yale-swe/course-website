@@ -10,24 +10,33 @@ const Staff = () => {
                 {/* <h1>About</h1> */}
                 <div style={{ marginBottom: '30px' }}></div>
 
-                <StaffContent
-                    staffName="Talley Amir"
-                    staffDesc="Teaching Assistant (TA)"
-                    staffImgSrc="https://cpsc.yale.edu/sites/default/files/styles/people_thumbnail/public/pictures/picture-2981-1580307163.jpg?itok=xM8a8-ov"
-                    staffOH="Friday 12:00 noon"
+                <h2>Fall 2022 members</h2>
+                <div style={{ marginBottom: '30px' }}></div>
+                {/* <StaffContent
+                    staffName="Dylan Fernandez de Lara"
+                    staffDesc="Undergraduate Learning Assistant (ULA)"
+                    staffImgSrc="/assets/dylan.jpg"
+                    staffOH="Thursday 12:00 noon"
                     staffWebpage={undefined}
                 ></StaffContent>
                 <StaffContent
+                    staffName="Talley Amir"
+                    staffDesc="Teaching Assistant (TA)"
+                    staffImgSrc="/assets/talley.jpg"
+                    staffOH="Friday 12:00 noon"
+                    staffWebpage={undefined}
+                ></StaffContent> */}
+                <StaffContent
                     staffName="Matt Elacqua"
                     staffDesc="Teaching Assistant (TA)"
-                    staffImgSrc="https://cpsc.yale.edu/sites/default/files/styles/people_thumbnail/public/pictures/picture-4252-1632336188.jpg?itok=xl_y10tU"
+                    staffImgSrc="/assets/matt.jpg"
                     staffOH="Thursday 12:00 noon"
                     staffWebpage={undefined}
                 ></StaffContent>
                 <StaffContent
                     staffName="Timos Antonopoulos"
                     staffDesc="Instructor"
-                    staffImgSrc="https://cpsc.yale.edu/sites/default/files/styles/people_thumbnail/public/pictures/picture-572-1502217188.jpg?itok=b_5MX8fK"
+                    staffImgSrc="/assets/timos.jpg"
                     staffOH="Tuesday 1:00 pm"
                     staffWebpage={undefined}
                 ></StaffContent>

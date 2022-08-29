@@ -71,7 +71,8 @@ const PROJECTS_S21: ProjectType[] = [
         team: 'H. Adbaru, F. Alonso Bilfinger, M. Blank, R. Chousal Cantu, H. Li, J. Wu',
         repoSrc: undefined,
         website: 'https://next-music.github.io/website/',
-        presentation: undefined,
+        presentation:
+            'https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=28ad46dd-9d05-42c4-a6d9-af00001bc2a9',
         height: '200px'
     },
     {
@@ -101,7 +102,8 @@ const PROJECTS_S21: ProjectType[] = [
         team: 'L. Chen, L. Eggleston, J. Pan, K. Rudder, J. Shan, S. Thompson',
         repoSrc: undefined,
         website: undefined,
-        presentation: undefined,
+        presentation:
+            'https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e578045e-8d1b-4d95-aa82-af00001bc23f',
         height: '220px'
     },
     {
@@ -111,7 +113,8 @@ const PROJECTS_S21: ProjectType[] = [
         team: 'O. Ababio, A. Arcia, A. Mensah, D. Sanchez, J. Truong',
         repoSrc: undefined,
         website: undefined,
-        presentation: undefined,
+        presentation:
+            'https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=02d472ec-bf0b-451a-916b-af00001bc1e7',
         height: '200px'
     }
 ];
@@ -120,7 +123,8 @@ const PROJECTS_S22: ProjectType[] = [
     {
         name: 'Appily',
         desc: 'Appily aims to make the job application process for software engineering roles easier and more organized. It is an app with a simple, intuitive interface that helps users track multiple job applications and stay on schedule with deadlines. Core features for application tracking allow users to add submitted applications to a worksheet, where they can track progress and create reminders for each application.',
-        imgSrc: '/assets/appily-logo.png',
+        // imgSrc: '/assets/appily-logo.png',
+        imgSrc: undefined,
         team: 'A. Craven, A. Dang, B. Feng, D. Fernandez de Lara, D. Katko, C. Martinez, D.S. Ong',
         repoSrc: 'https://github.com/yale-swe/s22-internship-tracker',
         website: undefined,
@@ -131,7 +135,8 @@ const PROJECTS_S22: ProjectType[] = [
     {
         name: 'Campaign Wallet',
         desc: 'A Chrome extension that allows users to hover over the names of Members of Congress on any website, and provides a popup providing campaign finance statistics (% of small donors, top industry donations, etc.) and other relevant details (record of misconduct, Tweets, etc.). Additional features include allowing the user to search a politician by their name and to look up politicians who are funded by a particular donor.',
-        imgSrc: '/assets/campaign-wallet-logo.png',
+        // imgSrc: '/assets/campaign-wallet-logo.png',
+        imgSrc: undefined,
         team: 'A. Chen, J. Hsu, J. Macri, A. Mehrotra, S. Mitra, L. Selin',
         repoSrc: 'https://github.com/yale-swe/s22-campaign-finance',
         website: undefined,
@@ -165,7 +170,8 @@ const PROJECTS_S22: ProjectType[] = [
     {
         name: 'Eloit',
         desc: "Eloit is a platform to rate and compare things in a whole new way. One can easily pick two items, vote for the one they like more, and see others' opinions on the rivalry. Every vote affects the rating and ranking of the compared items dynamically.",
-        imgSrc: '/assets/eloit-logo.png',
+        // imgSrc: '/assets/eloit-logo.png',
+        imgSrc: undefined,
         team: "X. Hou, H. Jain, R. Kantamneni, Y. Milkessa, J. O'Connor, K. Wu",
         repoSrc: 'https://github.com/yale-swe/s22-eloit',
         website: undefined,
@@ -176,7 +182,8 @@ const PROJECTS_S22: ProjectType[] = [
     {
         name: 'Jumble',
         desc: "Jumble is a website that combines social networking with media entertainment. For media entertainment database purposes, it is a place where users can view the information and users' evaluation of all kinds of media entertainment (TV shows, movies, books, games and podcasts); for social networking purposes, users can keep track of everything they have seen or are about to see, and follow other people to get their recent updates.",
-        imgSrc: '/assets/jumble-logo.png',
+        // imgSrc: '/assets/jumble-logo.png',
+        imgSrc: undefined,
         team: 'D. Hodeta, A. Lazzaretti, Y. Liu, J. Qu, Z. Tang, S. Tigistu, A. Zhang',
         repoSrc: 'https://github.com/yale-swe/s22-entertainment-archives',
         website: undefined,
@@ -207,7 +214,8 @@ const PROJECTS_S22: ProjectType[] = [
     {
         name: 'Yale Daily News Mobile App',
         desc: 'YDN Mobile is an app for the Yaily Daily News that provides all existing YDN functionality in an elegant mobile application; adds user engagement features such as creating user accounts, upvoting, commenting, and sharing; and adds user personalization features such as saved posts and a recommendation-driven "For You" newsfeed. Overall, YDN Mobile aims to provide an intuitive, accessible experience to increase user engagement and facilitate dialogue around the stories, issues, and topics affecting the Yale community.',
-        imgSrc: '/assets/ydn-logo.png',
+        // imgSrc: '/assets/ydn-logo.png',
+        imgSrc: undefined,
         team: 'Z. Gedi, A. Gondal, Y. Kim, T. Lauriette, F. Oluwadairo, F. Rahman, C. Reiner',
         repoSrc: 'https://github.com/yale-swe/s22-ydn-mobile',
         website: undefined,
@@ -218,7 +226,8 @@ const PROJECTS_S22: ProjectType[] = [
     {
         name: 'YMarket',
         desc: 'A one-stop marketplace app that serves the buying and selling needs of Yale affliates.',
-        imgSrc: '/assets/ymarket-logo.png',
+        // imgSrc: '/assets/ymarket-logo.png',
+        imgSrc: undefined,
         team: 'A. Chen, M. Goh, B. Liu, E. Qian, V. Sharma, M. Zhang',
         repoSrc: 'https://github.com/yale-swe/s22-ymarket',
         website: undefined,
@@ -237,7 +246,7 @@ const Projects = () => {
                 <div style={{ marginBottom: '30px' }}></div>
                 <h2>Fall 2022</h2>
                 TBA
-                <div style={{ height: '50px' }}></div>
+                <div style={{ height: '150px' }}></div>
                 <h3>Spring 2022</h3>
                 {PROJECTS_S22.map(
                     ({

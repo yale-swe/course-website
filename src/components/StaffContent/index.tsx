@@ -42,15 +42,15 @@ export const StaffContent = ({
 }) => {
     return (
         <div className={styles['staff-container']}>
-            <div className={styles['staff-image']}>
-                <StaffImage imgUrl={staffImgSrc}></StaffImage>
+            <StaffImage imgUrl={staffImgSrc}></StaffImage>
+            <div className={styles['staff-text']}>
+                <StaffName staffName={staffName}></StaffName>
+                <StaffDesc staffDesc={staffDesc}></StaffDesc>
+                <div className={styles['staff-OH']}>
+                    <u>Office hours:</u> {staffOH}
+                </div>
+                {staffWebpage}
             </div>
-            <StaffName staffName={staffName}></StaffName>
-            <StaffDesc staffDesc={staffDesc}></StaffDesc>
-            <div className={styles['staff-OH']}>
-                <u>Office hours:</u> {staffOH}
-            </div>
-            {staffWebpage}
         </div>
     );
 };

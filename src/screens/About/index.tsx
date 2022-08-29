@@ -95,10 +95,22 @@ const About = () => {
                         The aim of the course is to create maintainable
                         software.
                     </p>
-                    <p>
+                    {/* <p>
                         At the end of the course, the teams present their work
                         and demo their software in a project fair.
-                    </p>
+                    </p> */}
+                </div>
+                <hr
+                    style={{
+                        background: 'black',
+                        color: 'black',
+                        height: '1px',
+                        width: '100%',
+                        marginTop: '20px'
+                    }}
+                />
+                <div className={styles['content-credits']}>
+                    Credits: Jason Wu
                 </div>
             </div>
         </div>

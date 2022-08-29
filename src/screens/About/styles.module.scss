@@ -63,6 +63,16 @@
   margin-bottom: 20px;
 }
 
+.content-credits {
+  font-size: 18px;
+  width: 96%;
+  text-align: center;
+  margin: auto auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
 @media only screen and (max-width: 800px) {
   .content-container {
     padding: 0px 30px;
