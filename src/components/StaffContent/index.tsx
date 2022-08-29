@@ -27,6 +27,20 @@ function StaffDesc(props: { staffDesc: string }) {
     return <div className={styles['staff-description']}>{staffDesc}</div>;
 }
 
+function StaffOH(props: { staffOH: string | undefined }) {
+    const staffOH = props.staffOH;
+
+    if (staffOH) {
+        return (
+            <div className={styles['staff-OH']}>
+                <u>Office hours:</u> {staffOH}
+            </div>
+        );
+    } else {
+        return <div></div>;
+    }
+}
+
 export const StaffContent = ({
     staffName,
     staffDesc,
@@ -37,7 +51,7 @@ export const StaffContent = ({
     staffName: string;
     staffDesc: string;
     staffImgSrc: string | undefined;
-    staffOH: string;
+    staffOH: string | undefined;
     staffWebpage: string | undefined;
 }) => {
     return (
@@ -46,9 +60,7 @@ export const StaffContent = ({
             <div className={styles['staff-text']}>
                 <StaffName staffName={staffName}></StaffName>
                 <StaffDesc staffDesc={staffDesc}></StaffDesc>
-                <div className={styles['staff-OH']}>
-                    <u>Office hours:</u> {staffOH}
-                </div>
+                <StaffOH staffOH={staffOH}></StaffOH>
                 {staffWebpage}
             </div>
         </div>

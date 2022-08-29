@@ -16,28 +16,28 @@ const Staff = () => {
                     staffName="Dylan Fernandez de Lara"
                     staffDesc="Undergraduate Learning Assistant (ULA)"
                     staffImgSrc="/assets/dylan.jpg"
-                    staffOH="Thursday 12:00 noon"
+                    staffOH={undefined}
                     staffWebpage={undefined}
                 ></StaffContent>
                 <StaffContent
                     staffName="Talley Amir"
                     staffDesc="Teaching Assistant (TA)"
                     staffImgSrc="/assets/talley.jpg"
-                    staffOH="Friday 12:00 noon"
+                    staffOH={undefined}
                     staffWebpage={undefined}
                 ></StaffContent> */}
                 <StaffContent
                     staffName="Matt Elacqua"
                     staffDesc="Teaching Assistant (TA)"
                     staffImgSrc="/assets/matt.jpg"
-                    staffOH="Thursday 12:00 noon"
+                    staffOH={undefined}
                     staffWebpage={undefined}
                 ></StaffContent>
                 <StaffContent
                     staffName="Timos Antonopoulos"
                     staffDesc="Instructor"
                     staffImgSrc="/assets/timos.jpg"
-                    staffOH="Tuesday 1:00 pm"
+                    staffOH={undefined}
                     staffWebpage={undefined}
                 ></StaffContent>
 
@@ -48,21 +48,21 @@ const Staff = () => {
                     staffName="Jason Wu"
                     staffDesc="Undergraduate Learning Assistant (ULA)"
                     staffImgSrc="/assets/jason.jpg"
-                    staffOH=""
+                    staffOH={undefined}
                     staffWebpage={undefined}
                 ></StaffContent>
                 <StaffContent
                     staffName="Seun Omonije"
                     staffDesc="Undergraduate Learning Assistant (ULA)"
                     staffImgSrc="/assets/seun.jpg"
-                    staffOH="Wednesday 7:00 pm"
+                    staffOH={undefined}
                     staffWebpage={undefined}
                 ></StaffContent>
                 <StaffContent
                     staffName="Ning Luo"
                     staffDesc="Teaching Assistant (TA)"
                     staffImgSrc="/assets/ning.jpg"
-                    staffOH="Friday 4:00 pm"
+                    staffOH={undefined}
                     staffWebpage={undefined}
                 ></StaffContent>
             </div>
