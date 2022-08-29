@@ -21,7 +21,7 @@ const About = () => {
                         fontSize: '18px'
                     }}
                 >
-                    <a href="/assets/calendar.pdf">Link to PDF Calendar</a>{' '}
+                    {/* <a href="/assets/calendar.pdf">Link to PDF Calendar</a>{' '} */}
                 </div>
                 <p style={{ marginBottom: '0px', marginTop: '20px' }}>
                     <span className={styles['highlight-text']}>Where:</span> WTS
@@ -110,7 +110,7 @@ const About = () => {
                     }}
                 />
                 <div className={styles['content-credits']}>
-                    Credits: Jason Wu
+                    Website credits: Jason Wu
                 </div>
             </div>
         </div>
