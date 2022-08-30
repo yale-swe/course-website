@@ -12,14 +12,14 @@ const Staff = () => {
 
                 <h2>Fall 2022 members</h2>
                 <div style={{ marginBottom: '30px' }}></div>
-                {/* <StaffContent
+                <StaffContent
                     staffName="Dylan Fernandez de Lara"
                     staffDesc="Undergraduate Learning Assistant (ULA)"
                     staffImgSrc="/assets/dylan.jpg"
                     staffOH={undefined}
                     staffWebpage={undefined}
                 ></StaffContent>
-                <StaffContent
+                {/* <StaffContent
                     staffName="Talley Amir"
                     staffDesc="Teaching Assistant (TA)"
                     staffImgSrc="/assets/talley.jpg"
