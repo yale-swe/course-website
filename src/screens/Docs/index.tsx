@@ -8,6 +8,7 @@ const Docs = () => {
             <NavigationBar />
             <div className={styles['content-container']}>
                 <h1>Docs</h1>
+
                 <div style={{ marginBottom: '30px' }}></div>
                 <h2>Tutorials</h2>
 
@@ -47,8 +48,18 @@ const Docs = () => {
                     docImgSrc="https://flask.palletsprojects.com/en/2.2.x/_static/flask-icon.png"
                     docUrl="https://flask.palletsprojects.com/en/2.2.x/tutorial/"
                 ></DocContent>
-                <div className={styles['vrgap']}></div>
 
+                <div style={{ marginBottom: '30px' }}></div>
+                <h2>Video Tutorials</h2>
+
+                <DocContent
+                    docName="MERN Stack Walkthrough 🔒"
+                    docDesc="This is a video walkthrough created for the CPSC 439/539 class, for building a basic app using the MERN stack: MongoDB (NoSQL Database), Express (Backend Framework), React (Frontend Framework), Node.js (Backend Runtime)."
+                    docImgSrc={undefined}
+                    docUrl="https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6636764c-b8e9-4ae5-bcc2-aef90055d0bb"
+                ></DocContent>
+
+                <div className={styles['vrgap']}></div>
                 <h2>Example Code</h2>
                 <DocContent
                     docName="MERN Example App"
