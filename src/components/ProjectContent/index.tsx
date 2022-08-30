@@ -122,7 +122,7 @@ export const ProjectContent = ({
         styleGen = {};
     } else {
         image = <div></div>;
-        styleGen = { marginLeft: '20px', width: 'calc(100% - 20px)' };
+        styleGen = { marginLeft: '20px', width: 'calc(100% - 40px)' };
     }
     return (
         <div
