@@ -16,28 +16,35 @@ const Staff = () => {
                     staffName="Dylan Fernandez de Lara"
                     staffDesc="Undergraduate Learning Assistant (ULA)"
                     staffImgSrc="/assets/dylan.jpg"
-                    staffOH={undefined}
+                    staffOH={{}}
                     staffWebpage={undefined}
                 ></StaffContent>
-                {/* <StaffContent
+                <StaffContent
                     staffName="Talley Amir"
                     staffDesc="Teaching Assistant (TA)"
                     staffImgSrc="/assets/talley.jpg"
-                    staffOH={undefined}
+                    staffOH={{ when: 'Thursdays 5-7pm', room: 'AKW 403' }}
                     staffWebpage={undefined}
-                ></StaffContent> */}
+                ></StaffContent>
                 <StaffContent
                     staffName="Matt Elacqua"
                     staffDesc="Teaching Assistant (TA)"
                     staffImgSrc="/assets/matt.jpg"
-                    staffOH={undefined}
+                    staffOH={{
+                        when: 'Mondays 3-5pm',
+                        zoom: 'https://us04web.zoom.us/j/8844956036?pwd=dnhQU0R5aFc5Q2JHditEVEs4Q0VrQT09',
+                        room: 'AKW 203'
+                    }}
                     staffWebpage={undefined}
                 ></StaffContent>
                 <StaffContent
                     staffName="Timos Antonopoulos"
                     staffDesc="Instructor"
                     staffImgSrc="/assets/timos.jpg"
-                    staffOH={undefined}
+                    staffOH={{
+                        when: 'Tuesdays 2-3pm',
+                        zoom: 'https://yale.zoom.us/my/timos'
+                    }}
                     staffWebpage={undefined}
                 ></StaffContent>
 
@@ -48,21 +55,21 @@ const Staff = () => {
                     staffName="Jason Wu"
                     staffDesc="Undergraduate Learning Assistant (ULA)"
                     staffImgSrc="/assets/jason.jpg"
-                    staffOH={undefined}
+                    staffOH={{}}
                     staffWebpage={undefined}
                 ></StaffContent>
                 <StaffContent
                     staffName="Seun Omonije"
                     staffDesc="Undergraduate Learning Assistant (ULA)"
                     staffImgSrc="/assets/seun.jpg"
-                    staffOH={undefined}
+                    staffOH={{}}
                     staffWebpage={undefined}
                 ></StaffContent>
                 <StaffContent
                     staffName="Ning Luo"
                     staffDesc="Teaching Assistant (TA)"
                     staffImgSrc="/assets/ning.jpg"
-                    staffOH={undefined}
+                    staffOH={{}}
                     staffWebpage={undefined}
                 ></StaffContent>
             </div>

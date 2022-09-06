@@ -27,15 +27,32 @@ function StaffDesc(props: { staffDesc: string }) {
     return <div className={styles['staff-description']}>{staffDesc}</div>;
 }
 
-function StaffOH(props: { staffOH: string | undefined }) {
+function StaffOH(props: { staffOH: { [key: string]: string } }) {
     const staffOH = props.staffOH;
 
-    if (staffOH) {
-        return (
+    if (staffOH.when) {
+        let zoom = <></>;
+        let room = <></>;
+        let con = <></>;
+        if (staffOH.zoom) {
+            // zoom = <><a href={staffOH.zoom}> on Zoom</a></>
+            zoom = <> on Zoom</>;
+        }
+        if (staffOH.room) {
+            room = <> at {staffOH.room}</>;
+        }
+        if (staffOH.zoom && staffOH.room) {
+            con = <> and </>;
+        }
+        const when = (
             <div className={styles['staff-OH']}>
-                <u>Office hours:</u> {staffOH}
+                <u>Office hours:</u> {staffOH.when}
+                {room}
+                {con}
+                {zoom}
             </div>
         );
+        return <>{when}</>;
     } else {
         return <div></div>;
     }
@@ -51,7 +68,7 @@ export const StaffContent = ({
     staffName: string;
     staffDesc: string;
     staffImgSrc: string | undefined;
-    staffOH: string | undefined;
+    staffOH: { [key: string]: string };
     staffWebpage: string | undefined;
 }) => {
     return (
