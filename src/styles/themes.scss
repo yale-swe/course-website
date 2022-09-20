@@ -6,7 +6,8 @@
   --hr-line: rgb(40, 195, 247);
   --hr-line-vl: rgb(249, 110, 231);
   --card-bg-color: rgb(245, 245, 245);
-  --card-shadow-color: rgba(100, 100, 100, 0.65);
+  --card-shadow-color: rgba(100, 100, 100, 0.95);
+  --card-shadow-radius: 3px;
 }
 
 :root[data-theme='theme-dark'] {
@@ -17,5 +18,6 @@
   --hr-line: rgb(40, 195, 247);
   --hr-line-vl: rgb(249, 110, 231);
   --card-bg-color: rgb(58, 58, 58);
-  --card-shadow-color: rgba(0, 0, 0, 0.95);
+  --card-shadow-color: rgba(190, 190, 190, 0.95);
+  --card-shadow-radius: 4px;
 }

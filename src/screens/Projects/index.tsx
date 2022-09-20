@@ -237,6 +237,20 @@ const PROJECTS_S22: ProjectType[] = [
     }
 ];
 
+const PROJECTS_F22: ProjectType[] = [
+    // {
+    //     name: 'Backup',
+    //     desc: '...',
+    //     // imgSrc: '/assets/appily-logo.png',
+    //     imgSrc: undefined,
+    //     team: '[team]',
+    //     repoSrc: 'https://github.com/yale-swe/f22-backup',
+    //     website: undefined,
+    //     presentation: undefined,
+    //     height: '200px'
+    // }
+];
+
 const Projects = () => {
     return (
         <div className={styles['page-container']}>
@@ -245,7 +259,31 @@ const Projects = () => {
                 <h1>Projects</h1>
                 <div style={{ marginBottom: '30px' }}></div>
                 <h2>Fall 2022</h2>
-                TBA
+                <h4>TBA</h4>
+                {PROJECTS_F22.map(
+                    ({
+                        name,
+                        desc,
+                        team,
+                        imgSrc,
+                        repoSrc,
+                        website,
+                        presentation,
+                        height
+                    }) => (
+                        <ProjectContent
+                            key={name}
+                            projectName={name}
+                            projectDesc={desc}
+                            projectTeam={team}
+                            projectImgSrc={imgSrc}
+                            projectRepoSrc={repoSrc}
+                            projectWebsite={website}
+                            projectPresentation={presentation}
+                            projectCardHeight={height}
+                        />
+                    )
+                )}
                 <div style={{ height: '150px' }}></div>
                 <h3>Spring 2022</h3>
                 {PROJECTS_S22.map(
