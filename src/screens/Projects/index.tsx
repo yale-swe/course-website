@@ -238,17 +238,83 @@ const PROJECTS_S22: ProjectType[] = [
 ];
 
 const PROJECTS_F22: ProjectType[] = [
-    // {
-    //     name: 'Backup',
-    //     desc: '...',
-    //     // imgSrc: '/assets/appily-logo.png',
-    //     imgSrc: undefined,
-    //     team: '[team]',
-    //     repoSrc: 'https://github.com/yale-swe/f22-backup',
-    //     website: undefined,
-    //     presentation: undefined,
-    //     height: '200px'
-    // }
+    {
+        name: 'WalkHome',
+        desc: 'WalkHome is an app designed to bolster individual safety in potentially dangerous public or semi-public situations. WalkHome provides its users a discreet way to de-escalate an uncomfortable situation by streamlining and masking the process of calling for help.',
+        // imgSrc: '/assets/appily-logo.png',
+        imgSrc: undefined,
+        team: 'T. Dai, M. Keyes, S. Magruder, J. Malouf, P. Miller-Schmidt, S. Yankovskaya',
+        repoSrc: 'https://github.com/yale-swe/f22-backup',
+        website: undefined,
+        presentation: undefined,
+        height: '230px'
+    },
+    {
+        name: 'ClubHub',
+        desc: 'ClubHub will make club management easy. We want to enable Yale students (and eventually students from other universities) to run their clubs smoothly from one place.',
+        // imgSrc: '/assets/appily-logo.png',
+        imgSrc: undefined,
+        team: 'D. Beckmen, J. Lee, G. Stodolski, N. Weinberger, K. Yip',
+        repoSrc: 'https://github.com/yale-swe/f22-club-management',
+        website: undefined,
+        presentation: undefined,
+        height: '200px'
+    },
+    {
+        name: 'Parkit',
+        desc: 'Parkit is a platform for people to rent out parking spaces for temporary or long term use.',
+        // imgSrc: '/assets/appily-logo.png',
+        imgSrc: undefined,
+        team: 'M. Ge, D. Mertus, W. Owens, S. Seager, Y. Shimizu, D. Vroon',
+        repoSrc: 'https://github.com/yale-swe/f22-parkit',
+        website: undefined,
+        presentation: undefined,
+        height: '170px'
+    },
+    {
+        name: 'Shovel',
+        desc: 'Shovel is a chrome-extension that takes a highlighted snippet of text on a webpage and provides extra context and data from a variety of news sources.',
+        // imgSrc: '/assets/appily-logo.png',
+        imgSrc: undefined,
+        team: 'R. Ahluwalia, S. Feng, A. Landsbergen, A. Li, E. Peng, B. Wu',
+        repoSrc: 'https://github.com/yale-swe/f22-fact-analysis-tool',
+        website: undefined,
+        presentation: undefined,
+        height: '220px'
+    },
+    {
+        name: 'YaleNav',
+        desc: 'YaleNav is the mobile app helping students explore and navigate campus seamlessly.',
+        // imgSrc: '/assets/appily-logo.png',
+        imgSrc: undefined,
+        team: 'A. Hafez, G. Hardcastle, P. Neagu, V. Schaffer, J. Yu, K. Zawadzki',
+        repoSrc: 'https://github.com/yale-swe/f22-yalenav',
+        website: undefined,
+        presentation: undefined,
+        height: '170px'
+    },
+    {
+        name: 'Yalk',
+        desc: 'Yalk is a mobile application that allows users to organize, share and track walks so as to enable people to socially connect with others while staying active and improving their personal health.',
+        // imgSrc: '/assets/appily-logo.png',
+        imgSrc: undefined,
+        team: 'A. Chen, R. E. Lim, D. Mekuriaw, A. Yuan, C. Zheng',
+        repoSrc: 'https://github.com/yale-swe/f22-yalk',
+        website: undefined,
+        presentation: undefined,
+        height: '200px'
+    },
+    {
+        name: 'YArXiver',
+        desc: 'YArXiver is a literature management system helping Yale students collect, organize, search, recommend, cite, and share arXiv papers.',
+        // imgSrc: '/assets/appily-logo.png',
+        imgSrc: undefined,
+        team: 'J. Chen, T. Huang, W. Qiu, X. Tang, W. Wang, X. Zhang, Y. Zhao',
+        repoSrc: 'https://github.com/yale-swe/f22-yarxiver',
+        website: undefined,
+        presentation: undefined,
+        height: '200px'
+    }
 ];
 
 const Projects = () => {
@@ -259,7 +325,6 @@ const Projects = () => {
                 <h1>Projects</h1>
                 <div style={{ marginBottom: '30px' }}></div>
                 <h2>Fall 2022</h2>
-                <h4>TBA</h4>
                 {PROJECTS_F22.map(
                     ({
                         name,
