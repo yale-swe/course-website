@@ -18,6 +18,7 @@ const Staff = () => {
                     staffImgSrc="/assets/dylan.jpg"
                     staffOH={{}}
                     staffWebpage={undefined}
+                    small={false}
                 ></StaffContent>
                 <StaffContent
                     staffName="Talley Amir"
@@ -25,6 +26,7 @@ const Staff = () => {
                     staffImgSrc="/assets/talley.jpg"
                     staffOH={{ when: 'Thursdays 5-7pm', room: 'AKW 403' }}
                     staffWebpage={undefined}
+                    small={false}
                 ></StaffContent>
                 <StaffContent
                     staffName="Matt Elacqua"
@@ -36,6 +38,7 @@ const Staff = () => {
                         room: 'AKW 203'
                     }}
                     staffWebpage={undefined}
+                    small={false}
                 ></StaffContent>
                 <StaffContent
                     staffName="Timos Antonopoulos"
@@ -46,6 +49,7 @@ const Staff = () => {
                         zoom: 'https://yale.zoom.us/my/timos'
                     }}
                     staffWebpage={undefined}
+                    small={false}
                 ></StaffContent>
 
                 <div style={{ marginBottom: '120px' }}></div>
@@ -57,6 +61,7 @@ const Staff = () => {
                     staffImgSrc="/assets/jason.jpg"
                     staffOH={{}}
                     staffWebpage={undefined}
+                    small={true}
                 ></StaffContent>
                 <StaffContent
                     staffName="Seun Omonije"
@@ -64,6 +69,7 @@ const Staff = () => {
                     staffImgSrc="/assets/seun.jpg"
                     staffOH={{}}
                     staffWebpage={undefined}
+                    small={true}
                 ></StaffContent>
                 <StaffContent
                     staffName="Ning Luo"
@@ -71,6 +77,7 @@ const Staff = () => {
                     staffImgSrc="/assets/ning.jpg"
                     staffOH={{}}
                     staffWebpage={undefined}
+                    small={true}
                 ></StaffContent>
             </div>
         </div>

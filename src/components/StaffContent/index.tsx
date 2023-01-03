@@ -1,15 +1,25 @@
 import styles from './styles.module.scss';
 
-function StaffImage(props: { imgUrl: string | undefined }) {
+function StaffImage(props: { imgUrl: string | undefined; small: boolean }) {
     const imgUrl = props.imgUrl;
+    const small = props.small;
 
     if (imgUrl != undefined) {
-        return (
-            <div
-                className={styles['staff-image']}
-                style={{ backgroundImage: 'url("' + imgUrl + '")' }}
-            ></div>
-        );
+        if (!small) {
+            return (
+                <div
+                    className={styles['staff-image']}
+                    style={{ backgroundImage: 'url("' + imgUrl + '")' }}
+                ></div>
+            );
+        } else {
+            return (
+                <div
+                    className={styles['staff-image'] + ' ' + styles['small']}
+                    style={{ backgroundImage: 'url("' + imgUrl + '")' }}
+                ></div>
+            );
+        }
     } else {
         return <div></div>;
     }
@@ -63,17 +73,21 @@ export const StaffContent = ({
     staffDesc,
     staffImgSrc,
     staffOH,
-    staffWebpage
+    staffWebpage,
+    small
 }: {
     staffName: string;
     staffDesc: string;
     staffImgSrc: string | undefined;
     staffOH: { [key: string]: string };
     staffWebpage: string | undefined;
+    small: boolean;
 }) => {
+    const containerStyles =
+        styles['staff-container'] + (!small ? '' : ' ' + styles['small']);
     return (
-        <div className={styles['staff-container']}>
-            <StaffImage imgUrl={staffImgSrc}></StaffImage>
+        <div className={containerStyles}>
+            <StaffImage imgUrl={staffImgSrc} small={small}></StaffImage>
             <div className={styles['staff-text']}>
                 <StaffName staffName={staffName}></StaffName>
                 <StaffDesc staffDesc={staffDesc}></StaffDesc>
