@@ -40,7 +40,7 @@ const Staff = () => {
                 <StaffContent
                     staffName="Timos Antonopoulos"
                     staffDesc="Instructor"
-                    staffImgSrc="/assets/timos.jpg"
+                    staffImgSrc="https://www.cs.yale.edu/homes/antonopoulos-timos/personal-s-sq.jpg"
                     staffOH={{
                         when: 'Tuesdays 2-3pm',
                         zoom: 'https://yale.zoom.us/my/timos'

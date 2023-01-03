@@ -10,7 +10,7 @@ const About = () => {
                 <div style={{ marginBottom: '30px' }}></div>
                 <p style={{ marginBottom: '0px' }}>
                     <span className={styles['highlight-text']}>When:</span>{' '}
-                    Mondays and Wednesdays: 1:00pm-2:15pm
+                    Tuesdays and Thursdays: 11:35am-12:50pm
                 </p>
                 <div
                     style={{
