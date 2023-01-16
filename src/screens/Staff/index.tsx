@@ -10,32 +10,25 @@ const Staff = () => {
                 {/* <h1>About</h1> */}
                 <div style={{ marginBottom: '30px' }}></div>
 
-                <h2>Fall 2022 members</h2>
+                <h2>Spring 2023 members</h2>
                 <div style={{ marginBottom: '30px' }}></div>
                 <StaffContent
-                    staffName="Dylan Fernandez de Lara"
-                    staffDesc="Undergraduate Learning Assistant (ULA)"
-                    staffImgSrc="/assets/dylan.jpg"
+                    staffName="Talley Amir"
+                    staffDesc="Teaching Assistant (TA)"
+                    staffImgSrc="/assets/talley.jpg"
+                    // staffOH={{ when: 'Thursdays 5-7pm', room: 'AKW 403' }}
                     staffOH={{}}
                     staffWebpage={undefined}
                     small={false}
                 ></StaffContent>
                 <StaffContent
-                    staffName="Talley Amir"
+                    staffName="Weijie Wang"
                     staffDesc="Teaching Assistant (TA)"
-                    staffImgSrc="/assets/talley.jpg"
-                    staffOH={{ when: 'Thursdays 5-7pm', room: 'AKW 403' }}
-                    staffWebpage={undefined}
-                    small={false}
-                ></StaffContent>
-                <StaffContent
-                    staffName="Matt Elacqua"
-                    staffDesc="Teaching Assistant (TA)"
-                    staffImgSrc="/assets/matt.jpg"
+                    staffImgSrc=""
                     staffOH={{
-                        when: 'Mondays 3-5pm',
-                        zoom: 'https://us04web.zoom.us/j/8844956036?pwd=dnhQU0R5aFc5Q2JHditEVEs4Q0VrQT09',
-                        room: 'AKW 203'
+                        when: 'Thursdays 3-5pm'
+                        // zoom: 'https://us04web.zoom.us/j/8844956036?pwd=dnhQU0R5aFc5Q2JHditEVEs4Q0VrQT09',
+                        // room: 'AKW 203'
                     }}
                     staffWebpage={undefined}
                     small={false}
@@ -55,6 +48,22 @@ const Staff = () => {
                 <div style={{ marginBottom: '120px' }}></div>
                 <h2>Past members</h2>
                 <div style={{ marginBottom: '20px' }}></div>
+                <StaffContent
+                    staffName="Dylan Fernandez de Lara"
+                    staffDesc="Undergraduate Learning Assistant (ULA)"
+                    staffImgSrc="/assets/dylan.jpg"
+                    staffOH={{}}
+                    staffWebpage={undefined}
+                    small={true}
+                ></StaffContent>
+                <StaffContent
+                    staffName="Matt Elacqua"
+                    staffDesc="Teaching Assistant (TA)"
+                    staffImgSrc="/assets/matt.jpg"
+                    staffOH={{}}
+                    staffWebpage={undefined}
+                    small={true}
+                ></StaffContent>
                 <StaffContent
                     staffName="Jason Wu"
                     staffDesc="Undergraduate Learning Assistant (ULA)"

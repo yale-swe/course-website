@@ -324,7 +324,10 @@ const Projects = () => {
             <div className={styles['content-container']}>
                 <h1>Projects</h1>
                 <div style={{ marginBottom: '30px' }}></div>
-                <h2>Fall 2022</h2>
+                <h2>Spring 2023</h2>
+                <span style={{ fontSize: '40px' }}>TBD</span>
+                <div style={{ height: '50px' }}></div>
+                <h3>Fall 2022</h3>
                 {PROJECTS_F22.map(
                     ({
                         name,
@@ -349,7 +352,7 @@ const Projects = () => {
                         />
                     )
                 )}
-                <div style={{ height: '150px' }}></div>
+                <div style={{ height: '50px' }}></div>
                 <h3>Spring 2022</h3>
                 {PROJECTS_S22.map(
                     ({
