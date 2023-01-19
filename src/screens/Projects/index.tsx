@@ -256,7 +256,7 @@ const PROJECTS_F22: ProjectType[] = [
         imgSrc: undefined,
         team: 'D. Beckmen, J. Lee, G. Stodolski, N. Weinberger, K. Yip',
         repoSrc: 'https://github.com/yale-swe/f22-club-management',
-        website: undefined,
+        website: 'https://dashboard.yaleclubhub.app/',
         presentation: undefined,
         height: '200px'
     },
