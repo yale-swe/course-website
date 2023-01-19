@@ -300,7 +300,7 @@ const PROJECTS_F22: ProjectType[] = [
         imgSrc: undefined,
         team: 'A. Chen, R. E. Lim, D. Mekuriaw, A. Yuan, C. Zheng',
         repoSrc: 'https://github.com/yale-swe/f22-yalk',
-        website: undefined,
+        website: 'https://danielmekuriaw.github.io/yalk-page/',
         presentation: undefined,
         height: '200px'
     },
