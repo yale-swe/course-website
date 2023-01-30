@@ -16,8 +16,7 @@ const Staff = () => {
                     staffName="Talley Amir"
                     staffDesc="Teaching Assistant (TA)"
                     staffImgSrc="/assets/talley.jpg"
-                    // staffOH={{ when: 'Thursdays 5-7pm', room: 'AKW 403' }}
-                    staffOH={{}}
+                    staffOH={{ when: 'Tuesdays 2-4pm', room: 'AKW 403' }}
                     staffWebpage={undefined}
                     small={false}
                 ></StaffContent>
