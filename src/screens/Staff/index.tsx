@@ -25,9 +25,8 @@ const Staff = () => {
                     staffDesc="Teaching Assistant (TA)"
                     staffImgSrc=""
                     staffOH={{
-                        when: 'Thursdays 3-5pm'
-                        // zoom: 'https://us04web.zoom.us/j/8844956036?pwd=dnhQU0R5aFc5Q2JHditEVEs4Q0VrQT09',
-                        // room: 'AKW 203'
+                        when: 'Thursdays 3-5pm',
+                        zoom: 'https://yale.zoom.us/my/wangweijie'
                     }}
                     staffWebpage={undefined}
                     small={false}
