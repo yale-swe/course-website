@@ -32,6 +32,14 @@ const Staff = () => {
                     small={false}
                 ></StaffContent>
                 <StaffContent
+                    staffName="Jack Li"
+                    staffDesc="Undergraduate Learning Assistant (ULA)"
+                    staffImgSrc=""
+                    staffOH={{}}
+                    staffWebpage={undefined}
+                    small={false}
+                ></StaffContent>
+                <StaffContent
                     staffName="Timos Antonopoulos"
                     staffDesc="Instructor"
                     staffImgSrc="https://www.cs.yale.edu/homes/antonopoulos-timos/personal-s-sq.jpg"
