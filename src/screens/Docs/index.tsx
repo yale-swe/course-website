@@ -10,6 +10,28 @@ const Docs = () => {
                 <h1>Docs</h1>
 
                 <div style={{ marginBottom: '30px' }}></div>
+                <h2>Video Tutorials From Past Semesters</h2>
+
+                <DocContent
+                    docName="MERN Stack Walkthrough 🔒"
+                    docDesc="A video walkthrough created for the CPSC 439/539 class, for building a basic app using the MERN stack: MongoDB (NoSQL Database), Express (Backend Framework), React (Frontend Framework), Node.js (Backend Runtime)."
+                    docImgSrc={undefined}
+                    docUrl="https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=08484ab7-4642-421c-a113-af850135e670"
+                ></DocContent>
+                <DocContent
+                    docName="Testing Walkthrough 🔒"
+                    docDesc="A video walkthrough created for the CPSC 439/539 class, for Frontend and Backend Testing as well as Continuous Integration"
+                    docImgSrc={undefined}
+                    docUrl="https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a128dca5-b746-48be-9364-af8501353c9b"
+                ></DocContent>
+                <DocContent
+                    docName="Deployment Walkthrough 🔒"
+                    docDesc="A video walkthrough created for the CPSC 439/539 class that demonstrates how one can deploy their services on Heroku."
+                    docImgSrc={undefined}
+                    docUrl="https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3ab1a863-7311-4205-9cb2-af8501351f92"
+                ></DocContent>
+
+                <div className={styles['vrgap']}></div>
                 <h2>Tutorials</h2>
 
                 <DocContent
@@ -47,16 +69,6 @@ const Docs = () => {
                     docDesc="A tutorial describing how to create a basic blog applicaiton using Flask."
                     docImgSrc="https://flask.palletsprojects.com/en/2.2.x/_static/flask-icon.png"
                     docUrl="https://flask.palletsprojects.com/en/2.2.x/tutorial/"
-                ></DocContent>
-
-                <div style={{ marginBottom: '30px' }}></div>
-                <h2>Video Tutorials</h2>
-
-                <DocContent
-                    docName="MERN Stack Walkthrough 🔒"
-                    docDesc="This is a video walkthrough created for the CPSC 439/539 class, for building a basic app using the MERN stack: MongoDB (NoSQL Database), Express (Backend Framework), React (Frontend Framework), Node.js (Backend Runtime)."
-                    docImgSrc={undefined}
-                    docUrl="https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6636764c-b8e9-4ae5-bcc2-aef90055d0bb"
                 ></DocContent>
 
                 <div className={styles['vrgap']}></div>
