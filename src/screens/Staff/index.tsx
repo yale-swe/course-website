@@ -44,7 +44,7 @@ const Staff = () => {
                     staffDesc="Instructor"
                     staffImgSrc="https://www.cs.yale.edu/homes/antonopoulos-timos/personal-s-sq.jpg"
                     staffOH={{
-                        when: 'Tuesdays 2-3pm',
+                        when: 'Mondays 2-3pm',
                         zoom: 'https://yale.zoom.us/my/timos'
                     }}
                     staffWebpage={undefined}
