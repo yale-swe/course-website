@@ -23,7 +23,7 @@ const Staff = () => {
                 <StaffContent
                     staffName="Weijie Wang"
                     staffDesc="Teaching Assistant (TA)"
-                    staffImgSrc=""
+                    staffImgSrc="/assets/weijie.png"
                     staffOH={{
                         when: 'Thursdays 3-5pm',
                         zoom: 'https://yale.zoom.us/my/wangweijie'
@@ -34,8 +34,11 @@ const Staff = () => {
                 <StaffContent
                     staffName="Jack Li"
                     staffDesc="Undergraduate Learning Assistant (ULA)"
-                    staffImgSrc=""
-                    staffOH={{}}
+                    staffImgSrc="/assets/jack.jpg"
+                    staffOH={{
+                        when: 'Wednesdays 7-8pm',
+                        room: 'AKW 3rd Floor'
+                    }}
                     staffWebpage={undefined}
                     small={false}
                 ></StaffContent>

@@ -317,6 +317,115 @@ const PROJECTS_F22: ProjectType[] = [
     }
 ];
 
+const PROJECTS_S23: ProjectType[] = [
+    {
+        name: 'Cinematch',
+        desc: 'It is difficult to pick a movie that everyone in a group is interested in watching. Cinematch is a social networking app that makes finding common movie interests fun and easy.',
+        // imgSrc: '/assets/appily-logo.png',
+        imgSrc: undefined,
+        team: 'J. Chen, K. Correia, A. Darfur, O. Fallahi, J. Kuszmaul, R. Takizawa',
+        repoSrc: 'https://github.com/yale-swe/s23-cinematch',
+        website: undefined,
+        presentation: undefined,
+        height: '200px'
+    },
+    {
+        name: 'Clockwork',
+        desc: 'High school and college students are swamped with deadlines and events from classes, extracurriculars, research, and more. Manually creating todo lists and schedules is inefficient and leads to additional stress and fatigue. We value social life, mental health, work-life balance, and more. Our vision for Clockwork is a simple and intuitive website that guides users to a more balanced and healthy schedule.',
+        imgSrc: undefined,
+        team: 'A. Gupta, A. Lee, M. Nagib, K. Patel, A. Tewari',
+        repoSrc: 'https://github.com/yale-swe/s23-clockwork',
+        website: undefined,
+        presentation: undefined,
+        height: '250px'
+    },
+    {
+        name: 'Foodme',
+        desc: 'Foodme is a food waste reduction app that allows users to purchase surplus food from restaurants and grocery stores at a discounted price.',
+        imgSrc: undefined,
+        team: 'W. Bao, I. Fayler, N. Le, Y. Lu, C. Tng, M. Young, W. Zheng',
+        repoSrc: 'https://github.com/yale-swe/s23-foodme',
+        website: undefined,
+        presentation: undefined,
+        height: '200px'
+    },
+    {
+        name: 'here2',
+        desc: 'People are uncoordinated, which leads to missed opportunities to share experiences together. For instance, you may be traveling across the country to L.A. for a conference. You come to find out your peer is also at the conference but from their social media post on the last day. The here2 service is focused on addressing these coordination issues that are rooted in lack of shared information about plans. ',
+        // imgSrc: '/assets/here2icon.png',
+        imgSrc: undefined,
+        team: 'A. Ao, F. Ciputra, B. Cuza, D. Daud, G. Dos Santos, A. Romero-Ruffo, P. Sykes',
+        repoSrc: 'https://github.com/yale-swe/s23-here2',
+        website: 'https://s23-here2.vercel.app',
+        presentation: undefined,
+        height: '280px'
+    },
+    {
+        name: 'iCare',
+        desc: 'This app is a communication tool for patients in hospitals who are unable to communicate verbally. The app utilizes a UI that has lots of large images which allows patients to easily make and transmit requests to the nurses’ station.',
+        // imgSrc: '/assets/eloit-logo.png',
+        imgSrc: undefined,
+        team: 'O. Akif, Z. Chen, X. Du, S. Pu, H. Wang',
+        repoSrc: 'https://github.com/yale-swe/s23-icare',
+        website: undefined,
+        presentation: undefined,
+        height: '220px'
+    },
+    {
+        name: 'IdleIvy',
+        desc: 'By creating a decentralized idle-rules game, we are solving the problem that all current idle games have which is the inability to do anything with the coins you idly earn in game. With an idle game on either the Ethereum blockchain, or one of the testnets that are forks of the mainnet, players can “play to earn” an actual asset they they have ownership of: our token.',
+        // imgSrc: '/assets/jumble-logo.png',
+        imgSrc: undefined,
+        team: 'T. Falk, J. Lee, G. Sleenhof',
+        repoSrc: 'https://github.com/yale-swe/s23-idleivy',
+        website: undefined,
+        presentation: undefined,
+        height: '250px'
+    },
+    {
+        name: 'my:hour',
+        desc: 'my:hour is a unified platform where anyone can signup and sell their services.',
+        imgSrc: undefined,
+        team: 'K. Chen, K. Im, A. Singhania, P. Wong, Z. Zhang',
+        repoSrc: 'https://github.com/yale-swe/s23-myhour',
+        website: undefined,
+        presentation: undefined,
+        height: '180px'
+    },
+    {
+        name: 'Shoutify',
+        desc: 'Shoutify allows users to create content for each other which is directly related to the music enjoyed by members of their social circles.',
+        imgSrc: undefined,
+        team: 'V. Del Carpio Gomez, S. Eshun Danquah, T. Lewis, D. Moss, H. Shindika, U. Wilson',
+        repoSrc: 'https://github.com/yale-swe/s23-shoutify',
+        website: undefined,
+        presentation: undefined,
+        height: '200px'
+    },
+    {
+        name: 'YIMS',
+        desc: 'YIMS creates an easier way for Intramural sport managers to keep track of games and tournament standings, as well as streamline the entire process to reduce busywork and possible bias in the brackets/seeding.',
+        // imgSrc: '/assets/ydn-logo.png',
+        imgSrc: undefined,
+        team: 'M. Jiang, C. Ouellette, K. Qiang, B. Viquiera, A. Xu, E. Yang',
+        repoSrc: 'https://github.com/yale-swe/s23-yims',
+        website: undefined,
+        presentation: undefined,
+        height: '220px'
+    },
+    {
+        name: 'YPaths',
+        desc: 'YPaths streamlines the scheduling process and eliminate some of the ambiguity behind planning long-term schedules at Yale. The generated schedules can inspire students and overcome the initial barrier of knowing where to start, especially for first year students.',
+        // imgSrc: '/assets/ymarket-logo.png',
+        imgSrc: undefined,
+        team: 'J. Chang, G. Colmenares, F. Limprayoon, C. Martinez Contreras, R. Menon, G. Purohit, C. Yang',
+        repoSrc: 'https://github.com/yale-swe/s23-ypaths',
+        website: 'https://www.ypaths.org',
+        presentation: undefined,
+        height: '220px'
+    }
+];
+
 const Projects = () => {
     return (
         <div className={styles['page-container']}>
@@ -325,7 +434,30 @@ const Projects = () => {
                 <h1>Projects</h1>
                 <div style={{ marginBottom: '30px' }}></div>
                 <h2>Spring 2023</h2>
-                <span style={{ fontSize: '40px' }}>TBD</span>
+                {PROJECTS_S23.map(
+                    ({
+                        name,
+                        desc,
+                        team,
+                        imgSrc,
+                        repoSrc,
+                        website,
+                        presentation,
+                        height
+                    }) => (
+                        <ProjectContent
+                            key={name}
+                            projectName={name}
+                            projectDesc={desc}
+                            projectTeam={team}
+                            projectImgSrc={imgSrc}
+                            projectRepoSrc={repoSrc}
+                            projectWebsite={website}
+                            projectPresentation={presentation}
+                            projectCardHeight={height}
+                        />
+                    )
+                )}
                 <div style={{ height: '50px' }}></div>
                 <h3>Fall 2022</h3>
                 {PROJECTS_F22.map(
