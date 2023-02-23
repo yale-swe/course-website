@@ -25,6 +25,12 @@ const Docs = () => {
                     docUrl="https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a128dca5-b746-48be-9364-af8501353c9b"
                 ></DocContent>
                 <DocContent
+                    docName="Testing Walkthrough for Flask 🔒"
+                    docDesc="A video walkthrough created for the CPSC 439/539 class, for Flask-based Unit and Integration Testing"
+                    docImgSrc={undefined}
+                    docUrl="https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=943bc814-d073-4901-a98b-afad00485b2b"
+                ></DocContent>
+                <DocContent
                     docName="Deployment Walkthrough 🔒"
                     docDesc="A video walkthrough created for the CPSC 439/539 class that demonstrates how one can deploy their services on Heroku."
                     docImgSrc={undefined}

@@ -320,24 +320,24 @@ const PROJECTS_F22: ProjectType[] = [
 const PROJECTS_S23: ProjectType[] = [
     {
         name: 'Cinematch',
-        desc: 'It is difficult to pick a movie that everyone in a group is interested in watching. Cinematch is a social networking app that makes finding common movie interests fun and easy.',
+        desc: 'Cinematch is a social networking app that allows users to find movies to watch with their friends.',
         // imgSrc: '/assets/appily-logo.png',
         imgSrc: undefined,
         team: 'J. Chen, K. Correia, A. Darfur, O. Fallahi, J. Kuszmaul, R. Takizawa',
         repoSrc: 'https://github.com/yale-swe/s23-cinematch',
         website: undefined,
         presentation: undefined,
-        height: '200px'
+        height: '180px'
     },
     {
         name: 'Clockwork',
-        desc: 'High school and college students are swamped with deadlines and events from classes, extracurriculars, research, and more. Manually creating todo lists and schedules is inefficient and leads to additional stress and fatigue. We value social life, mental health, work-life balance, and more. Our vision for Clockwork is a simple and intuitive website that guides users to a more balanced and healthy schedule.',
+        desc: 'Clockwork is a task-tracking app specifically designed to help students develop and maintain a healthy work-life balance. Rather than optimizing for maximum productivity, Clockwork aims to help reduce stress and prevent burnout, empowering users to balance their schedules.',
         imgSrc: undefined,
         team: 'A. Gupta, A. Lee, M. Nagib, K. Patel, A. Tewari',
         repoSrc: 'https://github.com/yale-swe/s23-clockwork',
         website: undefined,
         presentation: undefined,
-        height: '250px'
+        height: '230px'
     },
     {
         name: 'Foodme',
@@ -351,78 +351,78 @@ const PROJECTS_S23: ProjectType[] = [
     },
     {
         name: 'here2',
-        desc: 'People are uncoordinated, which leads to missed opportunities to share experiences together. For instance, you may be traveling across the country to L.A. for a conference. You come to find out your peer is also at the conference but from their social media post on the last day. The here2 service is focused on addressing these coordination issues that are rooted in lack of shared information about plans. ',
+        desc: 'here2 is a social networking web application focused on addressing issues related to peer coordination. The platform would enable users to centrally share in advance events and plans within their social networks to facilitate social interaction.',
         // imgSrc: '/assets/here2icon.png',
         imgSrc: undefined,
         team: 'A. Ao, F. Ciputra, B. Cuza, D. Daud, G. Dos Santos, A. Romero-Ruffo, P. Sykes',
         repoSrc: 'https://github.com/yale-swe/s23-here2',
         website: 'https://s23-here2.vercel.app',
         presentation: undefined,
-        height: '280px'
+        height: '230px'
     },
     {
         name: 'iCare',
-        desc: 'This app is a communication tool for patients in hospitals who are unable to communicate verbally. The app utilizes a UI that has lots of large images which allows patients to easily make and transmit requests to the nurses’ station.',
+        desc: 'iCare aims to revolutionize the way patients in hospitals communicate with healthcare staff, as many patients are unable to communicate verbally due to conditions such as stroke, heart attack, aphasia, or language barriers. We do this by creating an iPad/web application that features a user-friendly interface with large images to allow patients to easily send requests to their caretakers.',
         // imgSrc: '/assets/eloit-logo.png',
         imgSrc: undefined,
         team: 'O. Akif, Z. Chen, X. Du, S. Pu, H. Wang',
         repoSrc: 'https://github.com/yale-swe/s23-icare',
         website: undefined,
         presentation: undefined,
-        height: '220px'
+        height: '250px'
     },
     {
         name: 'IdleIvy',
-        desc: 'By creating a decentralized idle-rules game, we are solving the problem that all current idle games have which is the inability to do anything with the coins you idly earn in game. With an idle game on either the Ethereum blockchain, or one of the testnets that are forks of the mainnet, players can “play to earn” an actual asset they they have ownership of: our token.',
+        desc: 'IdleIvy is a game on blockchain with idle game mechanics. Users can idly "earn" our game\'s token and have actual custody of the game\'s currency, unlike how typical in-game currencies operate.',
         // imgSrc: '/assets/jumble-logo.png',
         imgSrc: undefined,
         team: 'T. Falk, J. Lee, G. Sleenhof',
         repoSrc: 'https://github.com/yale-swe/s23-idleivy',
         website: undefined,
         presentation: undefined,
-        height: '250px'
+        height: '210px'
     },
     {
-        name: 'my:hour',
-        desc: 'my:hour is a unified platform where anyone can signup and sell their services.',
+        name: 'myhour',
+        desc: 'myhour is a platform that unifies selling services as a freelancer with tutoring and support. Here we define service in the narrow sense that includes hourly video consultations, be it for academic support, legal support or even health and fitness support.',
         imgSrc: undefined,
         team: 'K. Chen, K. Im, A. Singhania, P. Wong, Z. Zhang',
         repoSrc: 'https://github.com/yale-swe/s23-myhour',
         website: undefined,
         presentation: undefined,
-        height: '180px'
+        height: '220px'
     },
     {
         name: 'Shoutify',
-        desc: 'Shoutify allows users to create content for each other which is directly related to the music enjoyed by members of their social circles.',
+        desc: 'Shoutify is a social add-on for Spotify that allows users to leave comments on songs and their lyrics.',
         imgSrc: undefined,
         team: 'V. Del Carpio Gomez, S. Eshun Danquah, T. Lewis, D. Moss, H. Shindika, U. Wilson',
         repoSrc: 'https://github.com/yale-swe/s23-shoutify',
         website: undefined,
         presentation: undefined,
-        height: '200px'
+        height: '180px'
     },
     {
         name: 'YIMS',
-        desc: 'YIMS creates an easier way for Intramural sport managers to keep track of games and tournament standings, as well as streamline the entire process to reduce busywork and possible bias in the brackets/seeding.',
+        desc: "YIMS provides up to date information on Yale's intramural sports competition. Players can easily view college leaderboards, access past game records, and sign up for games.",
         // imgSrc: '/assets/ydn-logo.png',
         imgSrc: undefined,
         team: 'M. Jiang, C. Ouellette, K. Qiang, B. Viquiera, A. Xu, E. Yang',
         repoSrc: 'https://github.com/yale-swe/s23-yims',
         website: undefined,
         presentation: undefined,
-        height: '220px'
+        height: '200px'
     },
     {
         name: 'YPaths',
-        desc: 'YPaths streamlines the scheduling process and eliminate some of the ambiguity behind planning long-term schedules at Yale. The generated schedules can inspire students and overcome the initial barrier of knowing where to start, especially for first year students.',
+        desc: 'Design your college paths -- schedules, majors, and daily commutes -- with YPaths.',
         // imgSrc: '/assets/ymarket-logo.png',
         imgSrc: undefined,
         team: 'J. Chang, G. Colmenares, F. Limprayoon, C. Martinez Contreras, R. Menon, G. Purohit, C. Yang',
         repoSrc: 'https://github.com/yale-swe/s23-ypaths',
         website: 'https://www.ypaths.org',
         presentation: undefined,
-        height: '220px'
+        height: '180px'
     }
 ];
 
