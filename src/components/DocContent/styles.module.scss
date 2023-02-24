@@ -56,3 +56,23 @@
 
 .doc-repo a {
 }
+
+@media only screen and (max-width: 800px) {
+  .doc-name {
+    font-size: 22px;
+    width: calc(100% - 120px);
+    height: 40px;
+  }
+  
+  .doc-description {
+    font-size: 14px;
+  }
+
+  .doc-description-short {
+    font-size: 14px;
+  }
+  
+  // .project-team {
+  //   font-size: 10px;
+  // }
+}

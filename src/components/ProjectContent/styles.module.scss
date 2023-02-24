@@ -95,3 +95,19 @@
 
 .project-repo a {
 }
+
+@media only screen and (max-width: 800px) {
+  .project-name {
+    font-size: 22px;
+    width: calc(100% - 120px);
+    height: 40px;
+  }
+  
+  .project-description {
+    font-size: 14px;
+  }
+  
+  .project-team {
+    font-size: 10px;
+  }
+}

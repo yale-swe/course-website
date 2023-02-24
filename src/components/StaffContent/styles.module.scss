@@ -76,3 +76,18 @@
   width: calc(100% - 30px);
   // height: calc(100% - 45px);
 }
+
+@media only screen and (max-width: 800px) {
+  .staff-name {
+    font-size: 22px;
+    width: calc(100% - 120px);
+  }
+  
+  .staff-description {
+    font-size: 16px;
+  }
+  
+  .staff-OH {
+    font-size: 18px;
+  }
+}
