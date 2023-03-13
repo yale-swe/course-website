@@ -11,17 +11,17 @@ import Staff from './screens/Staff';
 // import UnderConstruction from './screens/UnderConstruction';
 import setTheme from './styles/setTheme';
 
-const AB = () => {
-    useEffect(() => {
-        window.location.href = 'https://misc-dev.onrender.com/ab/';
-    }, []);
+// const AB = () => {
+//     useEffect(() => {
+//         window.location.href = 'https://misc-dev.onrender.com/ab/';
+//     }, []);
 
-    return (
-        <div>
-            <h2>Contact</h2>
-        </div>
-    );
-};
+//     return (
+//         <div>
+//             <h2>Contact</h2>
+//         </div>
+//     );
+// };
 
 const App = () => {
     const [isDarkMode] = useStickyState<boolean>(false, 'darkMode');
@@ -37,7 +37,7 @@ const App = () => {
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/docs" element={<Docs />} />
                 <Route path="/community" element={<Community />} />
-                <Route path="/ab/" element={<AB />} />
+                {/* <Route path="/ab/" element={<AB />} /> */}
             </Routes>
         </BrowserRouter>
     );
