@@ -27,7 +27,7 @@ const App = () => {
                 <Route path="/community" element={<Community />} />
                 <Route
                     path="/ab/"
-                    component={() => {
+                    element={() => {
                         window.location.href =
                             'https://misc-dev.onrender.com/ab/';
                         return null;
