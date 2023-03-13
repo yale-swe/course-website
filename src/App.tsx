@@ -26,9 +26,10 @@ const App = () => {
                 <Route path="/docs" element={<Docs />} />
                 <Route path="/community" element={<Community />} />
                 <Route
-                    path="/privacy-policy"
+                    path="/ab/"
                     component={() => {
-                        window.location.href = 'https://example.com/1234';
+                        window.location.href =
+                            'https://misc-dev.onrender.com:10000/ab/';
                         return null;
                     }}
                 />
