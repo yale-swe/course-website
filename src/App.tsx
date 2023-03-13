@@ -25,6 +25,13 @@ const App = () => {
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/docs" element={<Docs />} />
                 <Route path="/community" element={<Community />} />
+                <Route
+                    path="/privacy-policy"
+                    component={() => {
+                        window.location.href = 'https://example.com/1234';
+                        return null;
+                    }}
+                />
             </Routes>
         </BrowserRouter>
     );
