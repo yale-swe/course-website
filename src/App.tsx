@@ -29,7 +29,7 @@ const App = () => {
                     path="/ab/"
                     component={() => {
                         window.location.href =
-                            'https://misc-dev.onrender.com:10000/ab/';
+                            'https://misc-dev.onrender.com/ab/';
                         return null;
                     }}
                 />
