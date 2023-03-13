@@ -13,6 +13,17 @@ const Staff = () => {
                 <h2>Spring 2023 members</h2>
                 <div style={{ marginBottom: '30px' }}></div>
                 <StaffContent
+                    staffName="Jack Li"
+                    staffDesc="Undergraduate Learning Assistant (ULA)"
+                    staffImgSrc="/assets/jack.jpg"
+                    staffOH={{
+                        when: 'Wednesdays 7-8pm',
+                        room: 'AKW 3rd Floor'
+                    }}
+                    staffWebpage={undefined}
+                    small={false}
+                ></StaffContent>
+                <StaffContent
                     staffName="Talley Amir"
                     staffDesc="Teaching Assistant (TA)"
                     staffImgSrc="/assets/talley.jpg"
@@ -27,17 +38,6 @@ const Staff = () => {
                     staffOH={{
                         when: 'Thursdays 3-5pm',
                         zoom: 'https://yale.zoom.us/my/wangweijie'
-                    }}
-                    staffWebpage={undefined}
-                    small={false}
-                ></StaffContent>
-                <StaffContent
-                    staffName="Jack Li"
-                    staffDesc="Undergraduate Learning Assistant (ULA)"
-                    staffImgSrc="/assets/jack.jpg"
-                    staffOH={{
-                        when: 'Wednesdays 7-8pm',
-                        room: 'AKW 3rd Floor'
                     }}
                     staffWebpage={undefined}
                     small={false}
