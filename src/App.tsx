@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import useStickyState from './hooks/useStickyState';
 import AB from './screens/AB';
+import ABTemplate from './screens/ABTemplate';
 import About from './screens/About';
 import Community from './screens/Community';
 import Docs from './screens/Docs';
@@ -27,6 +28,7 @@ const App = () => {
                 <Route path="/docs" element={<Docs />} />
                 <Route path="/community" element={<Community />} />
                 <Route path="/ab/" element={<AB />} />
+                <Route path="/ab/template/" element={<ABTemplate />} />
             </Routes>
         </BrowserRouter>
     );
