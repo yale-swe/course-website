@@ -29,9 +29,18 @@ const App = () => {
                 <Route path="/community" element={<Community />} />
                 <Route path="/ab/" element={<AB />} />
                 <Route path="/ab/template/" element={<ABTemplate />} />
+                <Route path="/voting" element={<Redirect />} />
             </Routes>
         </BrowserRouter>
     );
+};
+
+const Redirect = () => {
+    useEffect(() => {
+        window.location.href = 'https://voting-9c79.onrender.com';
+    }, []);
+
+    return <div></div>;
 };
 
 export default App;
