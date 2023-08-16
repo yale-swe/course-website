@@ -30,6 +30,7 @@ const App = () => {
                 <Route path="/ab/" element={<AB />} />
                 <Route path="/ab/template/" element={<ABTemplate />} />
                 <Route path="/voting" element={<Redirect />} />
+                <Route path="/voting/auth" element={<RedirectAuth />} />
             </Routes>
         </BrowserRouter>
     );
@@ -38,6 +39,14 @@ const App = () => {
 const Redirect = () => {
     useEffect(() => {
         window.location.href = 'https://voting-9c79.onrender.com';
+    }, []);
+
+    return <div></div>;
+};
+
+const RedirectAuth = () => {
+    useEffect(() => {
+        window.location.href = 'https://voting-9c79.onrender.com/auth';
     }, []);
 
     return <div></div>;
