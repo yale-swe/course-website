@@ -9,9 +9,10 @@ const Community = () => {
             <div className={styles['content-container']}>
                 <h1>Community</h1>
                 <div className={styles['vrgap']}></div>
-                <a href="https://discord.com/channels/1059696577960235038/1059696577960235041">
-                    Discord Server for Spring 2023
+                <a href="https://discord.com/channels/1143356392653193236/1143356393110388797">
+                    Discord Server for Fall 2023
                 </a>
+                <a href="https://discord.gg/TMJsWsu7Yu">(Invite Link)</a>
                 <div className={styles['vrgap']}></div>
                 {/* <img width="200px" src={DiscordQRImg}></img> */}
             </div>

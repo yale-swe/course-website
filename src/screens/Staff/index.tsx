@@ -13,32 +13,26 @@ const Staff = () => {
                 <h2>Spring 2023 members</h2>
                 <div style={{ marginBottom: '30px' }}></div>
                 <StaffContent
-                    staffName="Jack Li"
+                    staffName="Bienn Viquiera"
                     staffDesc="Undergraduate Learning Assistant (ULA)"
-                    staffImgSrc="/assets/jack.jpg"
-                    staffOH={{
-                        when: 'Wednesdays 7-8pm',
-                        room: 'AKW 3rd Floor'
-                    }}
+                    staffImgSrc="/assets/bienn.jpg"
+                    staffOH={{}}
                     staffWebpage={undefined}
                     small={false}
                 ></StaffContent>
                 <StaffContent
-                    staffName="Talley Amir"
+                    staffName="Sebastian Jin"
                     staffDesc="Teaching Assistant (TA)"
-                    staffImgSrc="/assets/talley.jpg"
-                    staffOH={{ when: 'Tuesdays 2-4pm', room: 'AKW 403' }}
+                    staffImgSrc="/assets/sebastian.jpg"
+                    staffOH={{}}
                     staffWebpage={undefined}
                     small={false}
                 ></StaffContent>
                 <StaffContent
-                    staffName="Weijie Wang"
+                    staffName="Yuyang Sang"
                     staffDesc="Teaching Assistant (TA)"
-                    staffImgSrc="/assets/weijie.png"
-                    staffOH={{
-                        when: 'Thursdays 3-5pm',
-                        zoom: 'https://yale.zoom.us/my/wangweijie'
-                    }}
+                    staffImgSrc="/assets/yuyang.jpg"
+                    staffOH={{}}
                     staffWebpage={undefined}
                     small={false}
                 ></StaffContent>
@@ -47,7 +41,7 @@ const Staff = () => {
                     staffDesc="Instructor"
                     staffImgSrc="https://www.cs.yale.edu/homes/antonopoulos-timos/personal-s-sq.jpg"
                     staffOH={{
-                        when: 'Mondays 2-3pm',
+                        when: 'Thursdays 1-2pm',
                         zoom: 'https://yale.zoom.us/my/timos'
                     }}
                     staffWebpage={undefined}
@@ -57,6 +51,30 @@ const Staff = () => {
                 <div style={{ marginBottom: '120px' }}></div>
                 <h2>Past members</h2>
                 <div style={{ marginBottom: '20px' }}></div>
+                <StaffContent
+                    staffName="Jack Li"
+                    staffDesc="Undergraduate Learning Assistant (ULA)"
+                    staffImgSrc="/assets/jack.jpg"
+                    staffOH={{}}
+                    staffWebpage={undefined}
+                    small={true}
+                ></StaffContent>
+                <StaffContent
+                    staffName="Talley Amir"
+                    staffDesc="Teaching Assistant (TA)"
+                    staffImgSrc="/assets/talley.jpg"
+                    staffOH={{}}
+                    staffWebpage={undefined}
+                    small={true}
+                ></StaffContent>
+                <StaffContent
+                    staffName="Weijie Wang"
+                    staffDesc="Teaching Assistant (TA)"
+                    staffImgSrc="/assets/weijie.png"
+                    staffOH={{}}
+                    staffWebpage={undefined}
+                    small={true}
+                ></StaffContent>
                 <StaffContent
                     staffName="Dylan Fernandez de Lara"
                     staffDesc="Undergraduate Learning Assistant (ULA)"
