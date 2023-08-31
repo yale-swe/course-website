@@ -434,6 +434,7 @@ const Projects = () => {
                 <h1>Projects</h1>
                 <div style={{ marginBottom: '30px' }}></div>
                 <h2>Fall 2023</h2>
+                <div style={{ fontSize: '30px' }}>TBD</div>
                 <div style={{ height: '50px' }}></div>
                 <h3>Spring 2023</h3>
                 {PROJECTS_S23.map(

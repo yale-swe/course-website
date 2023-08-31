@@ -32,7 +32,10 @@ const Staff = () => {
                     staffName="Yuyang Sang"
                     staffDesc="Teaching Assistant (TA)"
                     staffImgSrc="/assets/yuyang.jpg"
-                    staffOH={{}}
+                    staffOH={{
+                        when: 'Tuesdays 4-6pm',
+                        room: 'AKW 304'
+                    }}
                     staffWebpage={undefined}
                     small={false}
                 ></StaffContent>
@@ -40,10 +43,7 @@ const Staff = () => {
                     staffName="Timos Antonopoulos"
                     staffDesc="Instructor"
                     staffImgSrc="https://www.cs.yale.edu/homes/antonopoulos-timos/personal-s-sq.jpg"
-                    staffOH={{
-                        when: 'Thursdays 1-2pm',
-                        zoom: 'https://yale.zoom.us/my/timos'
-                    }}
+                    staffOH={{}}
                     staffWebpage={undefined}
                     small={false}
                 ></StaffContent>
