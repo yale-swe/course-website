@@ -10,7 +10,7 @@ const Staff = () => {
                 {/* <h1>About</h1> */}
                 <div style={{ marginBottom: '30px' }}></div>
 
-                <h2>Spring 2023 members</h2>
+                <h2>Fall 2023 members</h2>
                 <div style={{ marginBottom: '30px' }}></div>
                 <StaffContent
                     staffName="Bienn Viquiera"
