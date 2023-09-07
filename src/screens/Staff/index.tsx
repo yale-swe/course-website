@@ -24,7 +24,10 @@ const Staff = () => {
                     staffName="Sebastian Jin"
                     staffDesc="Teaching Assistant (TA)"
                     staffImgSrc="/assets/sebastian.jpg"
-                    staffOH={{}}
+                    staffOH={{
+                        when: 'Wednesdays 6-8pm',
+                        room: 'Sterling Memorial Library Wright Reading Room B65'
+                    }}
                     staffWebpage={undefined}
                     small={false}
                 ></StaffContent>
