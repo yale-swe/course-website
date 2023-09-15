@@ -85,7 +85,7 @@ const PROJECTS_F23: ProjectType[] = [
         height: '200px'
     },
     {
-        name: 'UXR Platform',
+        name: 'Harmony',
         desc: 'TBD',
         imgSrc: undefined,
         team: 'TBD',
@@ -95,7 +95,7 @@ const PROJECTS_F23: ProjectType[] = [
         height: '200px'
     },
     {
-        name: 'YC Arts Visualization',
+        name: 'CampusClicks',
         desc: 'TBD',
         imgSrc: undefined,
         team: 'TBD',
