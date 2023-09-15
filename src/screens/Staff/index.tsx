@@ -18,7 +18,7 @@ const Staff = () => {
                     staffImgSrc="/assets/bienn.jpg"
                     staffOH={{
                         when: 'Fridays 10am - 12 noon',
-                        where: 'Poorvu Center, in front of classroom 118B'
+                        room: 'Poorvu Center, in front of classroom 118B'
                     }}
                     staffWebpage={undefined}
                     small={false}
