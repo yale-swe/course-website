@@ -13,6 +13,119 @@ type ProjectType = {
     height: string | undefined;
 };
 
+const PROJECTS_F23: ProjectType[] = [
+    {
+        name: 'Adventurista',
+        desc: 'TBD',
+        imgSrc: undefined,
+        team: 'TBD',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '200px'
+    },
+    {
+        name: 'AppHub',
+        desc: 'TBD',
+        imgSrc: undefined,
+        team: 'TBD',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '200px'
+    },
+    {
+        name: 'Cell Segmentation Benchmark',
+        desc: 'TBD',
+        imgSrc: undefined,
+        team: 'TBD',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '200px'
+    },
+    {
+        name: 'FromTheArea',
+        desc: 'TBD',
+        imgSrc: undefined,
+        team: 'TBD',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '200px'
+    },
+    {
+        name: 'GeoARchive',
+        desc: 'TBD',
+        imgSrc: undefined,
+        team: 'TBD',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '200px'
+    },
+    {
+        name: 'HandEdit Pro',
+        desc: 'TBD',
+        imgSrc: undefined,
+        team: 'TBD',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '200px'
+    },
+    {
+        name: 'ProTop',
+        desc: 'TBD',
+        imgSrc: undefined,
+        team: 'TBD',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '200px'
+    },
+    {
+        name: 'UXR Platform',
+        desc: 'TBD',
+        imgSrc: undefined,
+        team: 'TBD',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '200px'
+    },
+    {
+        name: 'YC Arts Visualization',
+        desc: 'TBD',
+        imgSrc: undefined,
+        team: 'TBD',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '200px'
+    }
+    // {
+    //     name: 'Adventurist',
+    //     desc: '',
+    //     imgSrc: undefined,
+    //     team: '',
+    //     repoSrc: undefined,
+    //     website: undefined,
+    //     presentation: undefined,
+    //     height: '200px'
+    // },
+    // {
+    //     name: 'Adventurist',
+    //     desc: '',
+    //     imgSrc: undefined,
+    //     team: '',
+    //     repoSrc: undefined,
+    //     website: undefined,
+    //     presentation: undefined,
+    //     height: '200px'
+    // },
+];
+
 const PROJECTS_S21: ProjectType[] = [
     {
         name: 'Bulletin',
@@ -434,7 +547,31 @@ const Projects = () => {
                 <h1>Projects</h1>
                 <div style={{ marginBottom: '30px' }}></div>
                 <h2>Fall 2023</h2>
-                <div style={{ fontSize: '30px' }}>TBD</div>
+                {PROJECTS_F23.map(
+                    ({
+                        name,
+                        desc,
+                        team,
+                        imgSrc,
+                        repoSrc,
+                        website,
+                        presentation,
+                        height
+                    }) => (
+                        <ProjectContent
+                            key={name}
+                            projectName={name}
+                            projectDesc={desc}
+                            projectTeam={team}
+                            projectImgSrc={imgSrc}
+                            projectRepoSrc={repoSrc}
+                            projectWebsite={website}
+                            projectPresentation={presentation}
+                            projectCardHeight={height}
+                        />
+                    )
+                )}
+                {/* <div style={{ fontSize: '30px' }}>TBD</div> */}
                 <div style={{ height: '50px' }}></div>
                 <h3>Spring 2023</h3>
                 {PROJECTS_S23.map(
