@@ -16,7 +16,10 @@ const Staff = () => {
                     staffName="Bienn Viquiera"
                     staffDesc="Undergraduate Learning Assistant (ULA)"
                     staffImgSrc="/assets/bienn.jpg"
-                    staffOH={{}}
+                    staffOH={{
+                        when: 'Fridays 10am - 12 noon',
+                        where: 'Poorvu Center, in front of classroom 118B'
+                    }}
                     staffWebpage={undefined}
                     small={false}
                 ></StaffContent>
@@ -25,7 +28,7 @@ const Staff = () => {
                     staffDesc="Teaching Assistant (TA)"
                     staffImgSrc="/assets/sebastian.jpg"
                     staffOH={{
-                        when: 'Wednesdays 6-8pm',
+                        when: 'Wednesdays 6pm - 8pm',
                         room: 'Sterling Memorial Library Wright Reading Room B65'
                     }}
                     staffWebpage={undefined}
@@ -36,7 +39,7 @@ const Staff = () => {
                     staffDesc="Teaching Assistant (TA)"
                     staffImgSrc="/assets/yuyang.jpg"
                     staffOH={{
-                        when: 'Tuesdays 4-6pm',
+                        when: 'Tuesdays 4pm - 6pm',
                         room: 'AKW 304'
                     }}
                     staffWebpage={undefined}
@@ -47,7 +50,7 @@ const Staff = () => {
                     staffDesc="Instructor"
                     staffImgSrc="https://www.cs.yale.edu/homes/antonopoulos-timos/personal-s-sq.jpg"
                     staffOH={{
-                        when: 'Tuesdays 1-2pm',
+                        when: 'Tuesdays 1pm - 2pm',
                         room: 'DL 404'
                     }}
                     staffWebpage={undefined}
