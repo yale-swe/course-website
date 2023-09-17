@@ -25,7 +25,7 @@ const PROJECTS_F23: ProjectType[] = [
         height: '200px'
     },
     {
-        name: 'AppHub',
+        name: 'Yale AppHub',
         desc: 'TBD',
         imgSrc: undefined,
         team: 'TBD',
@@ -55,7 +55,7 @@ const PROJECTS_F23: ProjectType[] = [
         height: '200px'
     },
     {
-        name: 'GeoARchive',
+        name: 'Here',
         desc: 'TBD',
         imgSrc: undefined,
         team: 'TBD',
@@ -96,6 +96,26 @@ const PROJECTS_F23: ProjectType[] = [
     },
     {
         name: 'CampusClicks',
+        desc: 'TBD',
+        imgSrc: undefined,
+        team: 'TBD',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '200px'
+    },
+    {
+        name: 'IMYale',
+        desc: 'TBD',
+        imgSrc: undefined,
+        team: 'TBD',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '200px'
+    },
+    {
+        name: 'Yale Arts Map',
         desc: 'TBD',
         imgSrc: undefined,
         team: 'TBD',
