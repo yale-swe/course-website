@@ -16,19 +16,29 @@ type ProjectType = {
 const PROJECTS_F23: ProjectType[] = [
     {
         name: 'Adventurista',
-        desc: 'TBD',
+        desc: 'Adventurista is a social connectivity app designed to tackle the challenges of travel coordination, planning, and meeting new people. The platform allows users to post upcoming adventure plans and join other people’s events within their travel location – fostering seamless friendships, expanding their global network, and making memorable travel experiences.',
         imgSrc: undefined,
-        team: 'TBD',
+        team: 'N. Ismail, A. Khunte, P. SebaRaj, V. Tran, E. Wilford',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
-        height: '200px'
+        height: '240px'
     },
     {
         name: 'Yale AppHub',
-        desc: 'TBD',
+        desc: 'A marketplace for Yalies to go to when looking for applications that address issues in the campus community. This marketplace will not only host apps that are good for the community, but will be hosting apps that are made BY the community.',
         imgSrc: undefined,
-        team: 'TBD',
+        team: 'R. Acharya, G. Broome, A. Frey, Y. Mikhaylov, A. Potter, H. Qi',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '220px'
+    },
+    {
+        name: 'CampusClicks',
+        desc: 'CampusClicks is a centralized platform connecting Yale students with freelance student services like photographers, DJs, and more.',
+        imgSrc: undefined,
+        team: 'E. Belay, B. Chen, A. Chun, A. Ding, J. Dominic, L. Huang, M. Yuan',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
@@ -36,9 +46,9 @@ const PROJECTS_F23: ProjectType[] = [
     },
     {
         name: 'Cell Segmentation Benchmark',
-        desc: 'TBD',
+        desc: 'A system for researchers in the biomedical field to fairly evaluate their methods with publicly available cell segmentation datasets.',
         imgSrc: undefined,
-        team: 'TBD',
+        team: 'N. Bui, V. Kher, Y. Li, C. Liu, X. Sun, S. Viswanath',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
@@ -46,19 +56,9 @@ const PROJECTS_F23: ProjectType[] = [
     },
     {
         name: 'FromTheArea',
-        desc: 'TBD',
+        desc: 'FromTheArea is a web-application designed for Yale students to have a centralized location where they can learn about the best restaurants and bars in New Haven.',
         imgSrc: undefined,
-        team: 'TBD',
-        repoSrc: undefined,
-        website: undefined,
-        presentation: undefined,
-        height: '200px'
-    },
-    {
-        name: 'Here',
-        desc: 'TBD',
-        imgSrc: undefined,
-        team: 'TBD',
+        team: 'K. Collignon, E. Dong, E. Gerritz, V. Gorrepati, C. Kang, A. Tauhert, W. Zhu',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
@@ -66,39 +66,29 @@ const PROJECTS_F23: ProjectType[] = [
     },
     {
         name: 'HandEdit Pro',
-        desc: 'TBD',
+        desc: 'HandEdit Pro is a video editor that allows the user to use hand gestures to cut videos',
         imgSrc: undefined,
-        team: 'TBD',
+        team: 'S. Fang, R. Hausman, N. He, H. Liu, D. Ma, Z. Wang, Q. Zhang',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
-        height: '200px'
-    },
-    {
-        name: 'ProTop',
-        desc: 'TBD',
-        imgSrc: undefined,
-        team: 'TBD',
-        repoSrc: undefined,
-        website: undefined,
-        presentation: undefined,
-        height: '200px'
+        height: '180px'
     },
     {
         name: 'Harmony',
-        desc: 'TBD',
+        desc: 'Harmony is a UX research platform that provides users with an end-to-end pipeline to store, manage, organize, and share their research, serving as the single source of truth for organizations.',
         imgSrc: undefined,
-        team: 'TBD',
+        team: 'C. Hernandez, A. Nijhawan, S. Sivakumar, B. Xiong',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
         height: '200px'
     },
     {
-        name: 'CampusClicks',
-        desc: 'TBD',
+        name: 'Here',
+        desc: 'A location-based AR social app that allows users to plant messages for friends or the public in their current location and discover messages from others within a set distance.',
         imgSrc: undefined,
-        team: 'TBD',
+        team: 'L. Chen, P. Duong, S. Kang, X. Li, E. Wang, L. Wang, A. Zhang',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
@@ -106,19 +96,29 @@ const PROJECTS_F23: ProjectType[] = [
     },
     {
         name: 'IMYale',
-        desc: 'TBD',
+        desc: 'Communication, scheduling, and sign-ups for intramurals. All on one platform.',
         imgSrc: undefined,
-        team: 'TBD',
+        team: 'A. Deng, B. Gong, M. Kinyua, B. Qian, E. Sun, A. Zhang',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
-        height: '200px'
+        height: '180px'
+    },
+    {
+        name: 'ProTop',
+        desc: 'ProTop provides users with a streamlined capability to access and systemize data from multiple databases, download datasets from catalogs, visualize and collaboratively manipulate structures in real-time, and identify molecular entanglements in proteins.',
+        imgSrc: undefined,
+        team: 'J. Apostol, Y. Cai, J. Sanker, A. Su, H. Zuo',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '220px'
     },
     {
         name: 'Yale Arts Map',
-        desc: 'TBD',
+        desc: 'ale Art Map visualizes the relationships between people and projects across theater, film, and journalism at Yale.',
         imgSrc: undefined,
-        team: 'TBD',
+        team: 'TBDE. Boesen, F. Cuello Garcia, M. Gabashvili, D. Hanson, E. Kirkiles, S. Teng',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
