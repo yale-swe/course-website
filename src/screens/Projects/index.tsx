@@ -116,7 +116,7 @@ const PROJECTS_F23: ProjectType[] = [
     },
     {
         name: 'Yale Arts Map',
-        desc: 'ale Art Map visualizes the relationships between people and projects across theater, film, and journalism at Yale.',
+        desc: 'Yale Art Map visualizes the relationships between people and projects across theater, film, and journalism at Yale.',
         imgSrc: undefined,
         team: 'TBDE. Boesen, F. Cuello Garcia, M. Gabashvili, D. Hanson, E. Kirkiles, S. Teng',
         repoSrc: undefined,
