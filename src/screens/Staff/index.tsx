@@ -13,35 +13,18 @@ const Staff = () => {
                 <h2>Fall 2023 members</h2>
                 <div style={{ marginBottom: '30px' }}></div>
                 <StaffContent
-                    staffName="Bienn Viquiera"
-                    staffDesc="Undergraduate Learning Assistant (ULA)"
-                    staffImgSrc="/assets/bienn.jpg"
-                    staffOH={{
-                        when: 'Fridays 10am - 12 noon',
-                        room: 'Poorvu Center, in front of classroom 118B'
-                    }}
-                    staffWebpage={undefined}
-                    small={false}
-                ></StaffContent>
-                <StaffContent
                     staffName="Sebastian Jin"
                     staffDesc="Teaching Assistant (TA)"
                     staffImgSrc="/assets/sebastian.jpg"
-                    staffOH={{
-                        when: 'Wednesdays 6pm - 8pm',
-                        room: 'Sterling Memorial Library Wright Reading Room B65'
-                    }}
+                    staffOH={{}}
                     staffWebpage={undefined}
                     small={false}
                 ></StaffContent>
                 <StaffContent
-                    staffName="Yuyang Sang"
+                    staffName="Weijie Wang"
                     staffDesc="Teaching Assistant (TA)"
-                    staffImgSrc="/assets/yuyang.jpg"
-                    staffOH={{
-                        when: 'Tuesdays 4pm - 6pm',
-                        room: 'AKW 304'
-                    }}
+                    staffImgSrc="/assets/weijie.png"
+                    staffOH={{}}
                     staffWebpage={undefined}
                     small={false}
                 ></StaffContent>
@@ -49,10 +32,7 @@ const Staff = () => {
                     staffName="Timos Antonopoulos"
                     staffDesc="Instructor"
                     staffImgSrc="https://www.cs.yale.edu/homes/antonopoulos-timos/personal-s-sq.jpg"
-                    staffOH={{
-                        when: 'Tuesdays 1pm - 2pm',
-                        room: 'DL 404'
-                    }}
+                    staffOH={{}}
                     staffWebpage={undefined}
                     small={false}
                 ></StaffContent>
@@ -60,6 +40,14 @@ const Staff = () => {
                 <div style={{ marginBottom: '120px' }}></div>
                 <h2>Past members</h2>
                 <div style={{ marginBottom: '20px' }}></div>
+                <StaffContent
+                    staffName="Bienn Viquiera"
+                    staffDesc="Undergraduate Learning Assistant (ULA)"
+                    staffImgSrc="/assets/bienn.jpg"
+                    staffOH={{}}
+                    staffWebpage={undefined}
+                    small={true}
+                ></StaffContent>
                 <StaffContent
                     staffName="Jack Li"
                     staffDesc="Undergraduate Learning Assistant (ULA)"
@@ -77,9 +65,9 @@ const Staff = () => {
                     small={true}
                 ></StaffContent>
                 <StaffContent
-                    staffName="Weijie Wang"
+                    staffName="Yuyang Sang"
                     staffDesc="Teaching Assistant (TA)"
-                    staffImgSrc="/assets/weijie.png"
+                    staffImgSrc="/assets/yuyang.jpg"
                     staffOH={{}}
                     staffWebpage={undefined}
                     small={true}

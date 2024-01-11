@@ -25,7 +25,7 @@ const About = () => {
                 </div>
                 <p style={{ marginBottom: '0px', marginTop: '20px' }}>
                     <span className={styles['highlight-text']}>Where:</span> WTS
-                    A53
+                    A51
                 </p>
                 <div
                     style={{
@@ -63,7 +63,7 @@ const About = () => {
                     }}
                 >
                     <a href="https://classrooms.yale.edu/classrooms?field_max_capacity_value_1=All&field_name_value=23&field_feature_name_value=All&page=2#classrooms-page-6">
-                        A53
+                        A51
                     </a>{' '}
                 </div>
                 {/* <p style={{marginTop: "20px"}}>
