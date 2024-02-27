@@ -13,6 +13,119 @@ type ProjectType = {
     height: string | undefined;
 };
 
+const PROJECTS_S24: ProjectType[] = [
+    {
+        name: 'Astrarium',
+        desc: 'Astrarium provides astronomers with a simple tool for discovering new celestial objects, while simultaneously motivating their continued observations. Point your telescope to the sky in order to complete challenges, share findings with fellow stargazers, and build your own astronomy aquarium!',
+        imgSrc: undefined,
+        team: 'M. Mao, A. Pearce, M. Qiu, C. Sheng, J. Yoo, H. Zhou',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '240px'
+    },
+    {
+        name: 'BluebookAI',
+        desc: 'BluebookAI aims to create a natural language interface to provide customized Yale course recommendations in response to student queries.',
+        imgSrc: undefined,
+        team: 'B. Chen, A. Johnson, M. Lewkowicz, P. Lin, K. Liu, S. Ulammandakh, V. Zhou',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '220px'
+    },
+    {
+        name: 'BRB',
+        desc: 'BRB provides a platform on which users can create “communities” or groups within their local communities to facilitate buying/renting/borrowing the goods that users already have.',
+        imgSrc: undefined,
+        team: 'M. Chu, D. Raskin, M. Russo, S. Skoler, L. Sun, N. Sung',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '220px'
+    },
+    {
+        name: 'DocuBot',
+        desc: 'DocuBot is a documentation-retrieving, fine-tuned AI assistant that helps developers learn SAP Business Technology Platform.',
+        imgSrc: undefined,
+        team: 'S. Godilla, S. Nalabothu',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '220px'
+    },
+    {
+        name: 'Fair Poker',
+        desc: 'An online poker game that every participant can be sure that it is fair.',
+        imgSrc: undefined,
+        team: 'Z. Deng, Z. Liu, W. Wang, S. Zhu',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '200px'
+    },
+    {
+        name: 'Handsome Habits',
+        desc: 'Handsome Habits makes personal wellness fun by linking your habits to the well-being of our very own Handsome Dan.',
+        imgSrc: undefined,
+        team: 'W. Aboyure, T. Norsworthy, A. Sakho, J. Tweneboa Kodua',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '240px'
+    },
+    {
+        name: 'Meal?',
+        desc: 'Meal? is an iOS app designed to facilitate social dining experiences among coworkers, friends, and family.',
+        imgSrc: undefined,
+        team: 'C. Gong, H. Keenan, V. Lacombe, B. Lorsch, Z. Wu',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '220px'
+    },
+    {
+        name: 'Quill',
+        desc: 'Quill is a text editor designed to help writers supercharge their writing with AI. Users can get real-time feedback and utilize LLMs to enhance their writing in the way they feel is most useful to them.',
+        imgSrc: undefined,
+        team: 'A. Buffi, N. Hamilton, N. Ravinand, A. Tramer, S. Van Der Weide, A. Xie',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '220px'
+    },
+    {
+        name: 'ReadMuse',
+        desc: 'Readmuse is a web platform for writers to share story ideas and edit scripts and a communication tool between investors and authors.',
+        imgSrc: undefined,
+        team: 'M. Chen, B. Duanmu, K. Guan, F. He, Z. Zhou',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '220px'
+    },
+    {
+        name: 'Unify',
+        desc: 'Unify will offer Spotify users a visually appealing platform to explore their listening history and compare habits with others. By ‘unifying’ their data, users will be able to learn how much they match, get join song suggestions, custom playlists, and Y2K-style graphics to share.',
+        imgSrc: undefined,
+        team: 'R. Cheng, D. Crair, B. Gonzalez, H. Picar, S. Teng, S. Thakrar, B. Yee',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '240px'
+    },
+    {
+        name: 'Y Office Hours',
+        desc: 'Y Office Hours is inspired by the csofficehours.org website, a platform that provides virtual office hours sessions for Computer Science classes at Yale. The goal of Y Office Hours, however, is to solve some of the inconveniences and lack of major features that exist within the office hours platform at the moment.',
+        imgSrc: undefined,
+        team: 'D. Dong, A. Khan, B. Lewis, A. Shin, J. Zhang',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '240px'
+    }
+];
+
 const PROJECTS_F23: ProjectType[] = [
     {
         name: 'Adventurista',
@@ -567,7 +680,30 @@ const Projects = () => {
                 <h1>Projects</h1>
                 <div style={{ marginBottom: '30px' }}></div>
                 <h2>Spring 2024</h2>
-                <div style={{ fontSize: '30px' }}>TBD</div>
+                {PROJECTS_S24.map(
+                    ({
+                        name,
+                        desc,
+                        team,
+                        imgSrc,
+                        repoSrc,
+                        website,
+                        presentation,
+                        height
+                    }) => (
+                        <ProjectContent
+                            key={name}
+                            projectName={name}
+                            projectDesc={desc}
+                            projectTeam={team}
+                            projectImgSrc={imgSrc}
+                            projectRepoSrc={repoSrc}
+                            projectWebsite={website}
+                            projectPresentation={presentation}
+                            projectCardHeight={height}
+                        />
+                    )
+                )}
                 <div style={{ height: '50px' }}></div>
                 <h3>Fall 2023</h3>
                 {PROJECTS_F23.map(
