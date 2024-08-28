@@ -16,25 +16,25 @@ const Docs = () => {
                     docName="MERN Stack Walkthrough 🔒"
                     docDesc="A video walkthrough created for the CPSC 439/539 class, for building a basic app using the MERN stack: MongoDB (NoSQL Database), Express (Backend Framework), React (Frontend Framework), Node.js (Backend Runtime)."
                     docImgSrc={undefined}
-                    docUrl="https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=75a9c227-c11c-4487-9bdd-b0f5008d8d76"
+                    docUrl="https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fdf77c70-aae9-4b59-8fdd-b1da006a48cf"
                 ></DocContent>
                 <DocContent
                     docName="Testing Walkthrough 🔒"
                     docDesc="A video walkthrough created for the CPSC 439/539 class, for Frontend and Backend Testing as well as Continuous Integration"
                     docImgSrc={undefined}
-                    docUrl="https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5f067641-5dbd-4451-b8ab-b0f5008d8d0c"
+                    docUrl="https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a18e70bc-f751-4a02-ba56-b1da006a0399"
                 ></DocContent>
                 <DocContent
                     docName="Testing Walkthrough for Flask 🔒"
                     docDesc="A video walkthrough created for the CPSC 439/539 class, for Flask-based Unit and Integration Testing"
                     docImgSrc={undefined}
-                    docUrl="https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b2061041-78fd-4059-8a8b-b0f5008d8c7f"
+                    docUrl="https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0251258f-abeb-432f-9e18-b1da0069b903"
                 ></DocContent>
                 <DocContent
                     docName="Deployment Walkthrough 🔒"
                     docDesc="A video walkthrough created for the CPSC 439/539 class that demonstrates how one can deploy their services on Heroku."
                     docImgSrc={undefined}
-                    docUrl="https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=55753b25-2100-485c-ad9b-b0f5008d8ce5"
+                    docUrl="https://yale.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1c13c741-9be4-4b40-b084-b1da0069d72d"
                 ></DocContent>
 
                 <div className={styles['vrgap']}></div>

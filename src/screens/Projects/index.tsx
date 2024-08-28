@@ -13,6 +13,8 @@ type ProjectType = {
     height: string | undefined;
 };
 
+const PROJECTS_F24: ProjectType[] = [];
+
 const PROJECTS_S24: ProjectType[] = [
     {
         name: 'Astrarium',
@@ -679,7 +681,34 @@ const Projects = () => {
             <div className={styles['content-container']}>
                 <h1>Projects</h1>
                 <div style={{ marginBottom: '30px' }}></div>
-                <h2>Spring 2024</h2>
+                <h2>Fall 2024</h2>
+                {PROJECTS_F24.map(
+                    ({
+                        name,
+                        desc,
+                        team,
+                        imgSrc,
+                        repoSrc,
+                        website,
+                        presentation,
+                        height
+                    }) => (
+                        <ProjectContent
+                            key={name}
+                            projectName={name}
+                            projectDesc={desc}
+                            projectTeam={team}
+                            projectImgSrc={imgSrc}
+                            projectRepoSrc={repoSrc}
+                            projectWebsite={website}
+                            projectPresentation={presentation}
+                            projectCardHeight={height}
+                        />
+                    )
+                )}
+                <div style={{ height: '50px', fontSize: '30px' }}>TBD</div>
+                <div style={{ height: '50px' }}></div>
+                <h3>Spring 2024</h3>
                 {PROJECTS_S24.map(
                     ({
                         name,

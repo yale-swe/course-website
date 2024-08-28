@@ -10,12 +10,12 @@ const Staff = () => {
                 {/* <h1>About</h1> */}
                 <div style={{ marginBottom: '30px' }}></div>
 
-                <h2>Spring 2024 members</h2>
+                <h2>Fall 2024 members</h2>
                 <div style={{ marginBottom: '30px' }}></div>
                 <StaffContent
-                    staffName="Sebastian Jin"
+                    staffName="Zhongjie Wu"
                     staffDesc="Teaching Assistant (TA)"
-                    staffImgSrc="/assets/sebastian.jpg"
+                    staffImgSrc=""
                     staffOH={{}}
                     staffWebpage={undefined}
                     small={false}
@@ -40,6 +40,14 @@ const Staff = () => {
                 <div style={{ marginBottom: '120px' }}></div>
                 <h2>Past members</h2>
                 <div style={{ marginBottom: '20px' }}></div>
+                <StaffContent
+                    staffName="Sebastian Jin"
+                    staffDesc="Teaching Assistant (TA)"
+                    staffImgSrc="/assets/sebastian.jpg"
+                    staffOH={{}}
+                    staffWebpage={undefined}
+                    small={true}
+                ></StaffContent>
                 <StaffContent
                     staffName="Bienn Viquiera"
                     staffDesc="Undergraduate Learning Assistant (ULA)"
