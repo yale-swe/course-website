@@ -16,7 +16,10 @@ const Staff = () => {
                     staffName="Zhongjie Wu"
                     staffDesc="Teaching Assistant (TA)"
                     staffImgSrc=""
-                    staffOH={{}}
+                    staffOH={{
+                        when: 'Mondays 3-5pm',
+                        room: 'AKW 2nd Floor Attrium'
+                    }}
                     staffWebpage={undefined}
                     small={false}
                 ></StaffContent>
@@ -24,7 +27,10 @@ const Staff = () => {
                     staffName="Weijie Wang"
                     staffDesc="Teaching Assistant (TA)"
                     staffImgSrc="/assets/weijie.png"
-                    staffOH={{}}
+                    staffOH={{
+                        when: 'Wednesdays 5-6pm',
+                        room: 'L04 in Bass Library'
+                    }}
                     staffWebpage={undefined}
                     small={false}
                 ></StaffContent>
@@ -32,7 +38,11 @@ const Staff = () => {
                     staffName="Timos Antonopoulos"
                     staffDesc="Instructor"
                     staffImgSrc="https://www.cs.yale.edu/homes/antonopoulos-timos/personal-s-sq.jpg"
-                    staffOH={{}}
+                    staffOH={{
+                        when: 'Tuesdays 1-2pm',
+                        room: 'DL 404',
+                        zoom: 'on Zoom'
+                    }}
                     staffWebpage={undefined}
                     small={false}
                 ></StaffContent>
