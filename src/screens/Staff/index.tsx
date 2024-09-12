@@ -15,7 +15,7 @@ const Staff = () => {
                 <StaffContent
                     staffName="Zhongjie Wu"
                     staffDesc="Teaching Assistant (TA)"
-                    staffImgSrc=""
+                    staffImgSrc="/assets/zhongjie.jpg"
                     staffOH={{
                         when: 'Mondays 3-5pm',
                         room: 'AKW 2nd Floor Attrium'
