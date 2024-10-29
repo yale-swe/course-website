@@ -13,7 +13,148 @@ type ProjectType = {
     height: string | undefined;
 };
 
-const PROJECTS_F24: ProjectType[] = [];
+const PROJECTS_F24: ProjectType[] = [
+    {
+        name: 'ASP',
+        desc: '',
+        imgSrc: undefined,
+        team: '',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '240px'
+    },
+    {
+        name: 'Bulldog Carpool',
+        desc: '',
+        imgSrc: undefined,
+        team: '',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '240px'
+    },
+    {
+        name: 'Calinzard',
+        desc: '',
+        imgSrc: undefined,
+        team: '',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '240px'
+    },
+    {
+        name: 'Decoherence Labs',
+        desc: '',
+        imgSrc: undefined,
+        team: '',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '240px'
+    },
+    {
+        name: 'Dwello',
+        desc: '',
+        imgSrc: undefined,
+        team: '',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '240px'
+    },
+    {
+        name: 'ImagineMe',
+        desc: '',
+        imgSrc: undefined,
+        team: '',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '240px'
+    },
+    {
+        name: 'Jogger Jam',
+        desc: '',
+        imgSrc: undefined,
+        team: '',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '240px'
+    },
+    {
+        name: 'MarketMind AI',
+        desc: '',
+        imgSrc: undefined,
+        team: '',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '240px'
+    },
+    {
+        name: 'Munch',
+        desc: '',
+        imgSrc: undefined,
+        team: '',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '240px'
+    },
+    {
+        name: 'Tabbr',
+        desc: '',
+        imgSrc: undefined,
+        team: '',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '240px'
+    },
+    {
+        name: 'Time Capsule',
+        desc: '',
+        imgSrc: undefined,
+        team: '',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '240px'
+    },
+    {
+        name: 'Whisk',
+        desc: '',
+        imgSrc: undefined,
+        team: '',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '240px'
+    },
+    {
+        name: 'Yale CourseMap',
+        desc: '',
+        imgSrc: undefined,
+        team: '',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '240px'
+    },
+    {
+        name: 'YaliePlan',
+        desc: '',
+        imgSrc: undefined,
+        team: '',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '240px'
+    }
+];
 
 const PROJECTS_S24: ProjectType[] = [
     {
