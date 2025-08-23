@@ -62,9 +62,7 @@ const About = () => {
                         fontSize: '18px'
                     }}
                 >
-                    <a href="https://classrooms.yale.edu/classrooms?field_max_capacity_value_1=All&field_name_value=23&field_feature_name_value=All&page=2#classrooms-page-6">
-                        A51
-                    </a>{' '}
+                    <a href="https://classrooms.yale.edu/wts-a51">A51</a>{' '}
                 </div>
                 {/* <p style={{marginTop: "20px"}}>
                     <span className={styles['highlight-text']}>
