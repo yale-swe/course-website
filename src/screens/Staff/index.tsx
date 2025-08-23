@@ -13,28 +13,6 @@ const Staff = () => {
                 <h2>Fall 2024 members</h2>
                 <div style={{ marginBottom: '30px' }}></div>
                 <StaffContent
-                    staffName="Zhongjie Wu"
-                    staffDesc="Teaching Assistant (TA)"
-                    staffImgSrc="/assets/zhongjie.jpg"
-                    staffOH={{
-                        when: 'Mondays 3-5pm',
-                        room: 'AKW 2nd Floor Atrium'
-                    }}
-                    staffWebpage={undefined}
-                    small={false}
-                ></StaffContent>
-                <StaffContent
-                    staffName="Weijie Wang"
-                    staffDesc="Teaching Assistant (TA)"
-                    staffImgSrc="/assets/weijie.png"
-                    staffOH={{
-                        when: 'Wednesdays 5-6pm',
-                        room: 'L04 in Bass Library'
-                    }}
-                    staffWebpage={undefined}
-                    small={false}
-                ></StaffContent>
-                <StaffContent
                     staffName="Timos Antonopoulos"
                     staffDesc="Instructor"
                     staffImgSrc="https://www.cs.yale.edu/homes/antonopoulos-timos/personal-s-sq.jpg"
@@ -50,6 +28,22 @@ const Staff = () => {
                 <div style={{ marginBottom: '120px' }}></div>
                 <h2>Past members</h2>
                 <div style={{ marginBottom: '20px' }}></div>
+                <StaffContent
+                    staffName="Zhongjie Wu"
+                    staffDesc="Teaching Assistant (TA)"
+                    staffImgSrc="/assets/zhongjie.jpg"
+                    staffOH={{}}
+                    staffWebpage={undefined}
+                    small={true}
+                ></StaffContent>
+                <StaffContent
+                    staffName="Weijie Wang"
+                    staffDesc="Teaching Assistant (TA)"
+                    staffImgSrc="/assets/weijie.png"
+                    staffOH={{}}
+                    staffWebpage={undefined}
+                    small={true}
+                ></StaffContent>
                 <StaffContent
                     staffName="Sebastian Jin"
                     staffDesc="Teaching Assistant (TA)"

@@ -10,8 +10,8 @@ const Home = () => {
                 <div className={styles['text-container']}>
                     <h1>software engineering at yale</h1>
                     <h3>
-                        CPSC 439/539 at Yale University. We help students learn
-                        by creating real software projects.
+                        CPSC 4390/5390 at Yale University. We help students
+                        learn by creating real software projects.
                     </h3>
                 </div>
                 <div className={styles['graphic-container']}>
