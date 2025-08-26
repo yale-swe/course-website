@@ -13,82 +13,95 @@ type ProjectType = {
     height: string | undefined;
 };
 
+const PROJECTS_F25: ProjectType[] = [
+    // {
+    //     name: 'ASP',
+    //     desc: '',
+    //     imgSrc: undefined,
+    //     team: '',
+    //     repoSrc: undefined,
+    //     website: undefined,
+    //     presentation: undefined,
+    //     height: '240px'
+    // },
+];
+
 const PROJECTS_F24: ProjectType[] = [
     {
         name: 'ASP',
-        desc: '',
+        desc: 'An all-in-one platform that automates the design and optimization of mRNA sequences to enhance protein production and experimental efficiency.',
         imgSrc: undefined,
-        team: '',
+        team: 'A. Seth',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
-        height: '240px'
+        height: '180px'
     },
     {
         name: 'Bulldog Carpool',
-        desc: '',
+        desc: 'Bulldog Carpool aims to provide a platform that allows Yale students to connect with each other to set up carpooling arrangements when they are traveling to the airport.',
         imgSrc: undefined,
-        team: '',
+        team: 'C. Hamilton, D. Nanda, M. Nardini, M. Ofodile, O. Zhang',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
-        height: '240px'
+        height: '180px'
     },
     {
         name: 'Calinzard',
-        desc: '',
+        desc: "Calinzard is an AI-powered system that automatically extracts calendar events from emails and syncs them with users' Google Calendars. It addresses the time-consuming task of manually inputting event details from emails into calendars, particularly for students who receive numerous event-related emails.",
         imgSrc: undefined,
-        team: '',
+        team: 'S. Lee, S. Li, C. Stephenson, T. Wang, B. Wong',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
-        height: '240px'
+        height: '210px'
     },
     {
         name: 'Decoherence Labs',
-        desc: '',
+        desc: 'Decoherence Labs is developing an easy-to-use interface for visualizing and simulating quantum circuits, bridging the gap between theoretical quantum computing and practical applications.',
         imgSrc: undefined,
-        team: '',
+        team: 'B. Foxman, R. Kumar, J. Levy, Z. Pinker, R. Tan',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
-        height: '240px'
+        height: '190px'
     },
     {
         name: 'Dwello',
-        desc: '',
+        desc: 'A simple, no-fuss home comparison tool to streamline your next renting/buying decision!',
         imgSrc: undefined,
-        team: '',
+        team: 'N. Dee, A. Deng, A. Mishra, Z. Naveed, A. Purushottam, P. Sharma, Z. Zeng',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
-        height: '240px'
+        height: '170px'
     },
     {
         name: 'ImagineMe',
-        desc: '',
+        desc: "ImagineMe is a personalized storybook creation platform that sparks children's interest in reading by making them the main characters in AI-generated, visually immersive stories.",
         imgSrc: undefined,
-        team: '',
+        team: 'H. Chambers, V. Ezhov, A. Huang, O. Li, L. Raveendran, B. Todi',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
-        height: '240px'
+        height: '190px'
     },
     {
         name: 'Jogger Jam',
-        desc: '',
+        desc: 'Jogger Jam is a new, exciting exercise game featuring turn-based RPG elements.',
         imgSrc: undefined,
-        team: '',
+        team: 'A. Kumar, N. Mathew, C. Sun, N. Tareque, A. Umer, D. Zhang, M. Zhang',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
-        height: '240px'
+        height: '170px'
     },
     {
         name: 'MarketMind AI',
-        desc: '',
+        desc: 'MarketMind AI is an AI-driven platform that helps individual investors optimize their stock portfolios by providing personalized, data-driven rebalancing strategies. By integrating market news, trends, charts, and user goals, it simplifies portfolio management, enabling informed decisions without the need for extensive expertise.',
         imgSrc: undefined,
-        team: '',
+        team: 'Z. Jiang, B. Phipathananunth, J. Putta, S. Rizvi, I. Singh, H. Zeilberger',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
@@ -96,59 +109,59 @@ const PROJECTS_F24: ProjectType[] = [
     },
     {
         name: 'Munch',
-        desc: '',
+        desc: 'Munch is a social media platform where users share recipes with friends and the world, show off recent food creations, and compete with others to produce the best dish.',
         imgSrc: undefined,
-        team: '',
+        team: 'I. Deng, D. Lilly, A. Sharma, M. Willen, H. Wimsatt',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
-        height: '240px'
+        height: '190px'
     },
     {
         name: 'Tabbr',
-        desc: '',
+        desc: 'Tabbr is a platform designed to facilitate expense tracking, dues management and budgeting for organizations. It helps treasurers efficiently manage the group’s finances and maintain transparency with group members.',
         imgSrc: undefined,
-        team: '',
+        team: 'J. Carroll, M. Garchitorena, M. Lisman, S. Pierce, J. Pachêco, M. Velasco, C. Waxman',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
-        height: '240px'
+        height: '210px'
     },
     {
         name: 'Time Capsule',
-        desc: '',
+        desc: 'The Time Capsule project allows users to create and share virtual time capsules that contain photos, videos, text, and more. These capsules can be buried at specific locations on a map, with customizable visibility and temporal settings for when and who can see them.',
         imgSrc: undefined,
-        team: '',
+        team: 'K. Akduman, J. Baehring, B. Du, R. Klein-Seetharaman, T. Li, T. Tan, P. Ye',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
-        height: '240px'
+        height: '220px'
     },
     {
         name: 'Whisk',
-        desc: '',
+        desc: "Whish aims to optimize users' cooking experience as much as possible by displaying instructions for one or more dishes in real-time without the need to scroll (as in written recipes) or rewind (as in recipe videos).",
         imgSrc: undefined,
-        team: '',
+        team: 'M. Aral, D. Bikmaz, C. Kupeli, T. Kurumisawa, M. Masamvu',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
-        height: '240px'
+        height: '210px'
     },
     {
         name: 'Yale CourseMap',
-        desc: '',
+        desc: 'Yale Course Planner helps students create a semester plan by aligning their course selections with their career goals using a personalized course registry and calendar for this semester.',
         imgSrc: undefined,
-        team: '',
+        team: 'B. Bao, K. Lau, J. Serrano, X. Sun, Y. Zhang, Y. Zhou',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
-        height: '240px'
+        height: '190px'
     },
     {
         name: 'YaliePlan',
-        desc: '',
+        desc: 'YaliePlan is a web application that generates personalized academic, extracurricular, and social life plans with paragraphs, links, and time management templates for Yale students based on a survey reflecting their priorities and interests. It recommends specific clubs, courses, and events tailored to each student’s preferences and goals.',
         imgSrc: undefined,
-        team: '',
+        team: 'V. Basvi, L. Muita, A. Siele, S. Usherwood, K. Williams',
         repoSrc: undefined,
         website: undefined,
         presentation: undefined,
@@ -822,7 +835,34 @@ const Projects = () => {
             <div className={styles['content-container']}>
                 <h1>Projects</h1>
                 <div style={{ marginBottom: '30px' }}></div>
-                <h2>Fall 2024</h2>
+                <h2>Fall 2025</h2>
+                {PROJECTS_F25.map(
+                    ({
+                        name,
+                        desc,
+                        team,
+                        imgSrc,
+                        repoSrc,
+                        website,
+                        presentation,
+                        height
+                    }) => (
+                        <ProjectContent
+                            key={name}
+                            projectName={name}
+                            projectDesc={desc}
+                            projectTeam={team}
+                            projectImgSrc={imgSrc}
+                            projectRepoSrc={repoSrc}
+                            projectWebsite={website}
+                            projectPresentation={presentation}
+                            projectCardHeight={height}
+                        />
+                    )
+                )}
+                <div style={{ height: '50px', fontSize: '30px' }}>TBD</div>
+                <div style={{ height: '50px' }}></div>
+                <h3>Fall 2024</h3>
                 {PROJECTS_F24.map(
                     ({
                         name,
