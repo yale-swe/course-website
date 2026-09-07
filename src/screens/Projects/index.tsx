@@ -28,7 +28,7 @@ const PROJECTS_F26: ProjectType[] = [
 
 const PROJECTS_F25: ProjectType[] = [
     {
-        name: 'ClubHub',
+        name: 'ClubHubf',
         desc: 'ClubHub is a centralized platform for student organizations to manage events, preserve institutional knowledge, and ensure leadership continuity across years. It helps clubs streamline planning, share resources, and analyze trends, all in one secure and accessible interface.',
         imgSrc: undefined,
         team: 'A. Ephraim, L. Ivy, M. Isabelle, O. Kaitlyn, O. Irine Juliet, S. Nicholas',
