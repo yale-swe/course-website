@@ -1055,7 +1055,6 @@ const Projects = () => {
                         />
                     )
                 )}
-                <div style={{ height: '50px', fontSize: '30px' }}>TBD</div>
                 <div style={{ height: '50px' }}></div>
                 <h3>Spring 2024</h3>
                 {PROJECTS_S24.map(
