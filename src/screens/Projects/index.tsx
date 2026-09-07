@@ -13,17 +13,160 @@ type ProjectType = {
     height: string | undefined;
 };
 
-const PROJECTS_F25: ProjectType[] = [
+const PROJECTS_F26: ProjectType[] = [
     // {
-    //     name: 'ASP',
+    //     name: '',
     //     desc: '',
     //     imgSrc: undefined,
     //     team: '',
     //     repoSrc: undefined,
     //     website: undefined,
     //     presentation: undefined,
-    //     height: '240px'
+    //     height: '210px'
     // },
+];
+
+const PROJECTS_F25: ProjectType[] = [
+    {
+        name: 'ClubHub',
+        desc: 'ClubHub is a centralized platform for student organizations to manage events, preserve institutional knowledge, and ensure leadership continuity across years. It helps clubs streamline planning, share resources, and analyze trends, all in one secure and accessible interface.',
+        imgSrc: undefined,
+        team: 'A. Ephraim, L. Ivy, M. Isabelle, O. Kaitlyn, O. Irine Juliet, S. Nicholas',
+        repoSrc: undefined,
+        website: 'https://clubhub-ufv7.onrender.com',
+        presentation: undefined,
+        height: '210px'
+    },
+    {
+        name: 'Course Sidekick',
+        desc: 'A tool that centralizes scattered course resources into one searchable hub, so students can find critical information and answers in seconds. It replaces manual digging across PDFs, LMS pages, and emails with fast, unified search and simple Q&A.',
+        imgSrc: undefined,
+        team: 'A. Murad, A. Abel, C. Meghana, H. Adham, M. Ronald, N. David',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '210px'
+    },
+    {
+        name: 'Fantasy Finance League',
+        desc: 'Fantasy Finance League is a gamified investing platform that uses the structure of fantasy football to teach financial literacy. Players build "teams" of assets like stocks and cryptocurrencies, compete in leagues, and learn portfolio management in a fun, accessible way.',
+        imgSrc: undefined,
+        team: 'A. Ndiana, K. Tarun, M. Jordan, M. Haroon, O. Kemi, S. Elizabeth, T. Jorge',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '210px'
+    },
+    {
+        name: 'inki',
+        desc: 'inki is the first AI-powered collaborative annotation platform.',
+        imgSrc: undefined,
+        team: 'S. Emmett, Y. Grady, Z. Eva, Z. Henry',
+        repoSrc: undefined,
+        website: 'https://f25-inki-murex.vercel.app',
+        presentation: undefined,
+        height: '160px'
+    },
+    {
+        name: 'Jukebox',
+        desc: 'Jukebox is a social portfolio for music lovers: a platform designed to help you engage more deeply with the music you care about. It lets you share both quick takes and longform reviews, rate content, respond to music news, and build a multimedia journal of your personal associations with the art you love.',
+        imgSrc: undefined,
+        team: 'C. Danielle, C. Isabella, D. Ariana, M. Cindy, Q. Zixin, W. Thomas',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '210px'
+    },
+    {
+        name: 'MedSafe+',
+        desc: 'MedSafe+ is a patient-friendly platform that helps users check for medication, supplement, and diet interactions, offering clear safety alerts and personalized guidance to improve health management. It integrates drug–drug, drug–diet, and drug–supplement checks into one accessible tool for patients and caregivers.',
+        imgSrc: undefined,
+        team: 'C. Peng, G. Siyi, H. Angie, L. Peiwen, L. Tina, W. Xinyu, Z. Shiyang',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '240px'
+    },
+    {
+        name: 'Questify',
+        desc: 'Everyone wants to get better at something, but sticking with the process is hard when tools like to-do lists and journals feel like chores and leave progress invisible. Questify turns self-improvement into a game: users log real-world actions that earn skill XP, making everyday effort visible, rewarding, and social.',
+        imgSrc: undefined,
+        team: 'C. Xien, F. Qiang, G. Tamara, S. Noah, S. Uma, v. Celeste, W. Peter',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '240px'
+    },
+    {
+        name: 'SeatCheck',
+        desc: 'SeatCheck is a mobile application designed to help Yale students quickly identify the best available study spots across campus through real-time, crowdsourced updates. Acting like a "Waze for studying," it visualizes libraries, cafes, and lounges as an interactive heatmap that reflects seat availability, noise conditions, and amenities.',
+        imgSrc: undefined,
+        team: 'B. Snikitha, C. David, E. Barsbold, H. Adrian, P. Kashvi, S. Cody',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '240px'
+    },
+    {
+        name: 'SnackTrack',
+        desc: 'SnackTrack is a mobile iOS application that helps college students reduce food waste by tracking groceries, monitoring expiration dates, and suggesting recipes based on ingredients they already have at home',
+        imgSrc: undefined,
+        team: 'C. Peidong, K. Puiyee, L. Eric, M. Matthew, R. Sumanth, X. Jarvis, Z. William',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '210px'
+    },
+    {
+        name: 'SpotlightU',
+        desc: 'SpotlightU is a campus talent marketplace where students can showcase their skills and connect with peers seeking collaborators for creative projects, performances, and events.',
+        imgSrc: undefined,
+        team: 'A. Francisca, G. Kevin, K. Aya, O. Manaka, O. Sebastian, P. Angelica, T. Briley',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '190px'
+    },
+    {
+        name: 'SynKennik',
+        desc: 'SynKennik is an AI-powered education platform that creates structured and motivating learning experiences. It solves the chaos of conventional AI learning approaches by providing clear progression, quality content, and dynamic, gamified learning paths.',
+        imgSrc: undefined,
+        team: 'M. Ethan, R. Lazuli',
+        repoSrc: undefined,
+        website: 'https://synkennik.com',
+        presentation: undefined,
+        height: '210px'
+    },
+    {
+        name: 'Tasteful',
+        desc: 'Tasteful provides a central hub for ratings, reviews, and curation for media of multiple types: movies, books, music, and more. Users can select their favorite media, share this info with others, and socialize.',
+        imgSrc: undefined,
+        team: 'B. Arnav, C. Jennifer, H. Jerry, L. Nicholas, L. Byron, S. Brianna-Alexandra, Z. Rose',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '190px'
+    },
+    {
+        name: 'Yale Daily News',
+        desc: 'A complete revamp of the Yale Daily News tech stack; this includes its backend infrastructure, content management system, frontend web interface, and mobile application.',
+        imgSrc: undefined,
+        team: 'G. Seth, H. Raymond, N. Matthew, S. Midhun, S. Bohan, S. Kenneth, X. Ben',
+        repoSrc: undefined,
+        website: 'https://yaledailynews.com',
+        presentation: undefined,
+        height: '190px'
+    },
+    {
+        name: 'Yorkie',
+        desc: 'Yorkie is the one-stop marketplace for Yale students to sublet their housing and find short-term rentals in the New Haven area',
+        imgSrc: undefined,
+        team: 'A. Sivan, J. David, M. Nava, P. Elle, T. Joey, W. Natsume, Z. Felicia',
+        repoSrc: undefined,
+        website: undefined,
+        presentation: undefined,
+        height: '190px'
+    }
 ];
 
 const PROJECTS_F24: ProjectType[] = [
@@ -835,8 +978,8 @@ const Projects = () => {
             <div className={styles['content-container']}>
                 <h1>Projects</h1>
                 <div style={{ marginBottom: '30px' }}></div>
-                <h2>Fall 2025</h2>
-                {PROJECTS_F25.map(
+                <h2>Fall 2026</h2>
+                {PROJECTS_F26.map(
                     ({
                         name,
                         desc,
@@ -862,6 +1005,31 @@ const Projects = () => {
                 )}
                 <div style={{ height: '50px', fontSize: '30px' }}>TBD</div>
                 <div style={{ height: '50px' }}></div>
+                <h3>Fall 2025</h3>
+                {PROJECTS_F25.map(
+                    ({
+                        name,
+                        desc,
+                        team,
+                        imgSrc,
+                        repoSrc,
+                        website,
+                        presentation,
+                        height
+                    }) => (
+                        <ProjectContent
+                            key={name}
+                            projectName={name}
+                            projectDesc={desc}
+                            projectTeam={team}
+                            projectImgSrc={imgSrc}
+                            projectRepoSrc={repoSrc}
+                            projectWebsite={website}
+                            projectPresentation={presentation}
+                            projectCardHeight={height}
+                        />
+                    )
+                )}
                 <h3>Fall 2024</h3>
                 {PROJECTS_F24.map(
                     ({
